@@ -95,7 +95,7 @@
 
 <header>
   <h1>🌙 ✨ Project Sparkle ✨ 🌙</h1>
-  <p>Welcome to your <strong>Flora NeoPixel</strong> adventure! 🌈✨ Let’s get your <strong>Flora NeoPixel</strong> glowing! 🎉</p>
+  <p>Welcome to your <strong>Flora NeoPixel</strong> adventure! 🌈✨🎉</p>
 </header>
 
 <h2>🌟 What You Need 🌟</h2>
