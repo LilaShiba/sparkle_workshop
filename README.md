@@ -3,80 +3,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flora NeoPixel Tutorial for Arduino</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-      margin: 0;
-      padding: 20px;
-    }
-  header {
-      text-align: center;
-      background-color: #2c3e50;
-      color: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      margin-bottom: 20px;
-    }
-  h1 {
-      font-size: 2.5em;
-      margin: 0;
-    }
-  h2 {
-      color: #2c3e50;
-      border-bottom: 2px solid #3498db;
-      padding-bottom: 5px;
-    }
-  h3 {
-      color: #3498db;
-    }
-  .step {
-      background-color: #fff;
-      border-radius: 10px;
-      padding: 20px;
-      margin: 20px 0;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-  .step h3 {
-      margin-top: 0;
-    }
-  pre {
-      background-color: #f1f1f1;
-      padding: 10px;
-      border-radius: 5px;
-      overflow-x: auto;
-      max-width: 100%;
-    }
-  code {
-      color: #e74c3c;
-    }
-  .button {
-      display: inline-block;
-      background-color: #3498db;
-      color: #fff;
-      padding: 10px 20px;
-      border-radius: 5px;
-      text-decoration: none;
-      margin-top: 10px;
-    }
-  .button:hover {
-      background-color: #2980b9;
-    }
-  details {
-      margin-bottom: 15px;
-    }
-  summary {
-      font-weight: bold;
-      cursor: pointer;
-    }
-  .footer {
-      text-align: center;
-      margin-top: 40px;
-      font-size: 0.9em;
-      color: #7f8c8d;
-    }
-  </style>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
