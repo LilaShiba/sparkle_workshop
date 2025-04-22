@@ -1,21 +1,17 @@
 title: My Flora NeoPixel Guide
 description: A fun tutorial to light up your Flora NeoPixel with Arduino.
-theme: "minimal-mistakes-jekyll"  # Change theme name if using a different one
+theme: minima
 
-# URL and base URL for your site
 url: "https://lilaShiba.github.io"
 baseurl: ""
 
-# Enable or disable various features
 markdown: kramdown
 highlighter: rouge
 
-# Social media links
 social_links:
-  github: "https://github.com/your-username"
+  github: "https://github.com/lilaShiba"
   twitter: "https://twitter.com/your-username"
 
-# Optional: Customize the site's navigation bar
 header_pages:
   - Home
   - About
