@@ -2,7 +2,6 @@ description: ✨ Project Sparkel ✨.
 theme: minima
 
 url: "https://lilaShiba.github.io"
-baseurl: "sparkle_workshop"
 
 markdown: kramdown
 highlighter: rouge
