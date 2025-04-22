@@ -18,5 +18,5 @@ social_links:
 #   - Projects
 
 # Custom CSS file link
-assets:
-  - "styles.css"
+# assets:
+#   - "styles.css"
