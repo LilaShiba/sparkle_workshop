@@ -1,0 +1,91 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+    color: #3a3a3a;
+    text-align: center;
+}
+
+/* Step sections */
+details {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Summary styling */
+details summary {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #4CAF50;
+    cursor: pointer;
+}
+
+details summary:hover {
+    color: #388E3C;
+}
+
+/* Code block styling */
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin: 10px 0;
+}
+
+code {
+    font-size: 1.2em;
+    color: #d63d0d;
+}
+
+/* Button-like links */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Section titles */
+details > summary::before {
+    content: "👉 ";
+}
+
+/* Footer section */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Custom image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Ensure the page has some padding and spacing */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
