@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flora NeoPixel Tutorial for Arduino</title>
+  <title>✨ Project Sparkle ✨</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -94,8 +94,8 @@
 <body>
 
 <header>
-  <h1>🌙 Flora NeoPixel Tutorial for Arduino 🌟</h1>
-  <p>Welcome to your <strong>Flora NeoPixel</strong> adventure! 🌈✨ Let’s get your <strong>Flora NeoPixel</strong> glowing with Arduino! 🎉</p>
+  <h1>🌙 ✨ Project Sparkle ✨ 🌙</h1>
+  <p>Welcome to your <strong>Flora NeoPixel</strong> adventure! 🌈✨ Let’s get your <strong>Flora NeoPixel</strong> glowing! 🎉</p>
 </header>
 
 <h2>🌟 What You Need 🌟</h2>
@@ -104,7 +104,6 @@
   <li><strong>Microcontroller</strong> (e.g., the Flora itself) ⚡</li>
   <li><strong>Flora NeoPixel Strip</strong> (or a single Flora NeoPixel) 🌈</li>
   <li><strong>Jumper Wires</strong> 🔌</li>
-  <li><strong>Breadboard</strong> (optional but helpful) 🛠️</li>
 </ul>
 
 <div class="step">
