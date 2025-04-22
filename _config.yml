@@ -1,8 +1,8 @@
-description: A fun tutorial to light up your Flora NeoPixel with Arduino.
+description: Project Sparkel.
 theme: minima
 
 url: "https://lilaShiba.github.io"
-baseurl: "sparkel"
+baseurl: "sparkle_workshop"
 
 markdown: kramdown
 highlighter: rouge
