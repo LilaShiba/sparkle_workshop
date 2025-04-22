@@ -4,6 +4,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Link to external CSS file -->
   <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.js"></script>
 </head>
 <body>
 
@@ -59,8 +61,8 @@
       <li>Go to <strong>File > Examples > Adafruit NeoPixel > strandtest</strong>.</li>
       <p>This will load the example code that can light up all your NeoPixel LEDs with a rainbow pattern! 🌈✨</p>
     </ol>
-    <pre><code>
-#include &lt;Adafruit_NeoPixel.h&gt;
+    <pre><code class="language-c">
+#include <Adafruit_NeoPixel.h>
 
 #define PIN            6        // Pin where NeoPixel is connected
 #define NUMPIXELS      16       // Number of NeoPixels you have
@@ -74,7 +76,7 @@ void setup() {
 
 void loop() {
   // Light up each pixel to red
-  for(int i=0; i&lt;strip.numPixels(); i++) {
+  for(int i=0; i<strip.numPixels(); i++) {
     strip.setPixelColor(i, strip.Color(255,0,0)); // Red color
     strip.show();  // Update the strip
     delay(50);     // Delay between updates
@@ -100,71 +102,8 @@ void loop() {
   </details>
 </div>
 
-<div class="step">
-  <details>
-    <summary>🌈 Next Steps 🌙</summary>
-    <ul>
-      <li>Try changing the <strong>color</strong> to <strong>green</strong> (<code>strip.Color(0, 255, 0)</code>) or <strong>blue</strong> (<code>strip.Color(0, 0, 255)</code>).</li>
-      <li>Experiment with different <strong>animations</strong> to make your lights dance! 💃</li>
-    </ul>
-  </details>
-</div>
-
-<div class="step">
-  <details>
-    <summary>🌟 Troubleshooting Tips 🌟</summary>
-    <ul>
-      <li><strong>No lights?</strong> Double-check your wiring! Make sure the NeoPixel strip is connected properly to power (VCC), ground (GND), and the data pin.</li>
-      <li><strong>Blurry color?</strong> Ensure you're using a <strong>5V power source</strong> for your NeoPixels.</li>
-    </ul>
-  </details>
-</div>
-
-<h2>Commands</h2>
-<p>Here are some common commands to control your NeoPixel setup, such as changing colors, adjusting brightness, and setting the number of pixels.</p>
-
-<div class="step">
-  <details>
-    <summary>🔧 Changing the Color 🎨</summary>
-    <p>To change the color of the LEDs, you can adjust the <strong>RGB</strong> values in the <code>strip.setPixelColor()</code> function:</p>
-    <pre><code>
-strip.setPixelColor(pixel, strip.Color(red, green, blue));
-    </code></pre>
-    <p>For example, to make the NeoPixels glow <strong>green</strong>, change the line:</p>
-    <pre><code>
-strip.setPixelColor(i, strip.Color(255,0,0)); // Red color
-    </code></pre>
-    <p>to:</p>
-    <pre><code>
-strip.setPixelColor(i, strip.Color(0,255,0)); // Green color
-    </code></pre>
-  </details>
-</div>
-
-<div class="step">
-  <details>
-    <summary>💡 Adjusting the Brightness</summary>
-    <p>You can control the brightness of the NeoPixels using <code>strip.setBrightness()</code>. This function takes a value from <strong>0</strong> (off) to <strong>255</strong> (full brightness).</p>
-    <p>For example, to set the brightness to <strong>50%</strong>:</p>
-    <pre><code>
-strip.setBrightness(128);  // Set brightness to 50%
-    </code></pre>
-  </details>
-</div>
-
-<div class="step">
-  <details>
-    <summary>📏 Setting the Number of Pixels</summary>
-    <p>You can easily change the number of NeoPixels you’re using by modifying the <strong>NUMPIXELS</strong> variable:</p>
-    <pre><code>
-#define NUMPIXELS      10  // Number of NeoPixels you have
-    </code></pre>
-  </details>
-</div>
-
 <div class="footer">
   <p>🎉 You're ready to create your own light show with the Flora NeoPixel! 🌟💫</p>
-  <p>Now go forth and light up the world like the dazzling star you are! 🌟✨</p>
   <p>Let me know if you want more fun examples! 😄</p>
 </div>
 
