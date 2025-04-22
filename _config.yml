@@ -1,9 +1,8 @@
-title: 
 description: A fun tutorial to light up your Flora NeoPixel with Arduino.
 theme: minima
 
 url: "https://lilaShiba.github.io"
-baseurl: ""
+baseurl: "sparkel"
 
 markdown: kramdown
 highlighter: rouge
@@ -12,11 +11,7 @@ social_links:
   github: "https://github.com/LilaShiba"
   twitter: "https://twitter.com/your-username"
 
-# header_pages:
-#   - Home
-#   - About
-#   - Projects
 
 # Custom CSS file link
-# assets:
-#   - "styles.css"
+assets:
+  - "styles.css"
