@@ -2,7 +2,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flora NeoPixel Tutorial for Arduino</title>
   <!-- Link to external CSS file -->
   <link rel="stylesheet" href="styles.css">
 </head>
