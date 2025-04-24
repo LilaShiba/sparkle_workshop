@@ -14,7 +14,7 @@
 <body>
 
 <header>
-  <h1 class='shimmer-text'>🌙 ✨ Project Sparkle ✨ 🌙</h1>
+  <h1>🌙 ✨ Project Sparkle ✨ 🌙</h1>
   <p>Welcome to your <strong>Flora NeoPixel</strong> adventure! 🌈✨🎉</p>
 </header>
 
@@ -125,7 +125,7 @@ void loop() {
   </details>
 </div>
 
-<h2>Commands</h2>
+<h2 class='shimmer-text'>Commands</h2>
 <p>Here are some common commands to control your NeoPixel setup, such as changing colors, adjusting brightness, and setting the number of pixels.</p>
 
 <div class="step">

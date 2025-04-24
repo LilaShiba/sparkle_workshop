@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         firstDetails.addEventListener('toggle', () => {
             if (firstDetails.open && !effectAlreadyPlayed) {
                 triggerExpandEffect(firstDetails);
-                effectAlreadyPlayed = false;
+                effectAlreadyPlayed = true;
             }
         });
     }
