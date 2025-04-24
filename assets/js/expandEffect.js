@@ -13,14 +13,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function triggerExpandEffect(target) {
         // Particle burst - hearts floating upwards
-        for (let i = 0; i < 13; i++) {
+        for (let i = 0; i < 130; i++) {
             const heart = document.createElement('div');
             heart.className = 'burst-heart';
             heart.style.left = `${Math.random() * 100}%`;
             heart.style.animationDelay = `${Math.random()}s`;
             heart.style.animationDuration = `${Math.random() * 2 + 2}s`; // Random floating duration
             target.appendChild(heart);
-            setTimeout(() => heart.remove(), 5000); // Increased duration for floating effect
+            setTimeout(() => heart.remove(), 8000); // Increased duration for floating effect
         }
 
         // Add shimmer class to summary
