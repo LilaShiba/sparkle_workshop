@@ -149,7 +149,7 @@ summary {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  animation: shimmer 2.5s linear infinite;
+  animation: shimmer 3.5s linear infinite;
 }
 
 @keyframes shimmer {
