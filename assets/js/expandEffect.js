@@ -12,12 +12,34 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function triggerExpandEffect(target) {
-        const effect = document.createElement('div');
-        effect.className = 'expand-glow-effect';
-        target.appendChild(effect);
+        // Glow effect
+        const glow = document.createElement('div');
+        glow.className = 'expand-glow-effect';
+        target.appendChild(glow);
+        setTimeout(() => glow.remove(), 1000);
 
-        setTimeout(() => {
-            effect.remove();
-        }, 1000); // duration of the effect
+        // Particle burst
+        for (let i = 0; i < 10; i++) {
+            const heart = document.createElement('div');
+            heart.className = 'burst-heart';
+            heart.style.left = `${Math.random() * 100}%`;
+            heart.style.animationDelay = `${Math.random()}s`;
+            target.appendChild(heart);
+            setTimeout(() => heart.remove(), 1500);
+        }
+
+        // Add shimmer class to summary
+        const summary = target.querySelector('summary');
+        if (summary) {
+            summary.classList.add('shimmer-text');
+            setTimeout(() => summary.classList.remove('shimmer-text'), 1500);
+        }
+
+        // Trigger slide+fade on content
+        const content = target.querySelector(':scope > *:not(summary)');
+        if (content) {
+            content.classList.add('slide-fade-in');
+            setTimeout(() => content.classList.remove('slide-fade-in'), 1000);
+        }
     }
 });
