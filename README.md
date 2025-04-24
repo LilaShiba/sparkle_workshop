@@ -5,26 +5,11 @@
   <title>✨ Project Sparkle ✨</title>
   <link href="assets/css/styles.css" rel="stylesheet">
   <script src="assets/js/confetti.js"></script>
+  <script src="assets/js/heartCursor.js"></script>
+  <script src="assets/js/expandEffect.js"></script>
+
 
 </head>
-<div class="heart-cursor" id="heartCursor"></div>
-<script>
-  const cursor = document.getElementById('heartCursor');
-
-  document.addEventListener('mousemove', (e) => {
-    cursor.style.left = e.pageX + 'px';
-    cursor.style.top = e.pageY + 'px';
-    cursor.style.transform = `translate(-50%, -50%)`;
-
-    const sparkle = document.createElement('div');
-    sparkle.className = 'sparkle';
-    sparkle.style.left = e.pageX + 'px';
-    sparkle.style.top = e.pageY + 'px';
-    document.body.appendChild(sparkle);
-
-    setTimeout(() => sparkle.remove(), 600);
-  });
-</script>
 
 <body>
 
