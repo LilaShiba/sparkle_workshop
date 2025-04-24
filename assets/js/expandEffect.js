@@ -27,14 +27,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const summary = target.querySelector('summary');
         if (summary) {
             summary.classList.add('shimmer-text');
-            setTimeout(() => summary.classList.remove('shimmer-text'), 1500);
+            setTimeout(() => summary.classList.remove('shimmer-text'), 3000);
         }
 
         // Trigger slide+fade on content
         const content = target.querySelector(':scope > *:not(summary)');
         if (content) {
             content.classList.add('slide-fade-in');
-            setTimeout(() => content.classList.remove('slide-fade-in'), 1000);
+            setTimeout(() => content.classList.remove('slide-fade-in'), 2000);
         }
     }
 });

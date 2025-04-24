@@ -125,8 +125,8 @@ summary {
   bottom: 0;
   font-size: 1.2rem;
   color: hotpink;
-  animation: float-heart 3s ease-out forwards;
-  z-index: 10;
+  animation: float-heart 13s ease-out forwards;
+  z-index: 20;
   pointer-events: none;
   content: "♥";
 }
@@ -149,7 +149,7 @@ summary {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  animation: shimmer 1.5s linear infinite;
+  animation: shimmer 2.5s linear infinite;
 }
 
 @keyframes shimmer {

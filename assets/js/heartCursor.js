@@ -17,6 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
         sparkle.style.top = e.pageY + 'px';
         document.body.appendChild(sparkle);
 
-        setTimeout(() => sparkle.remove(), 600);
+        setTimeout(() => sparkle.remove(), 1000);
     });
 });
