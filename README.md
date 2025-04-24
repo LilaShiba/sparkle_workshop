@@ -14,7 +14,7 @@
 <body>
 
 <header>
-  <h1>🌙 ✨ Project Sparkle ✨ 🌙</h1>
+  <h1 class='shimmer-text'>🌙 ✨ Project Sparkle ✨ 🌙</h1>
   <p>Welcome to your <strong>Flora NeoPixel</strong> adventure! 🌈✨🎉</p>
 </header>
 
