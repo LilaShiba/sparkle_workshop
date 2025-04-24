@@ -12,20 +12,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function triggerExpandEffect(target) {
-        // Glow effect
-        // const glow = document.createElement('div');
-        // glow.className = 'expand-glow-effect';
-        // target.appendChild(glow);
-        // setTimeout(() => glow.remove(), 2000);
-
-        // Particle burst
-        for (let i = 0; i < 10; i++) {
+        // Particle burst - hearts floating upwards
+        for (let i = 0; i < 13; i++) {
             const heart = document.createElement('div');
             heart.className = 'burst-heart';
             heart.style.left = `${Math.random() * 100}%`;
             heart.style.animationDelay = `${Math.random()}s`;
+            heart.style.animationDuration = `${Math.random() * 2 + 2}s`; // Random floating duration
             target.appendChild(heart);
-            setTimeout(() => heart.remove(), 3000);
+            setTimeout(() => heart.remove(), 5000); // Increased duration for floating effect
         }
 
         // Add shimmer class to summary
