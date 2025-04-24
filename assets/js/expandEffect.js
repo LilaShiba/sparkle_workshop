@@ -13,10 +13,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function triggerExpandEffect(target) {
         // Glow effect
-        const glow = document.createElement('div');
-        glow.className = 'expand-glow-effect';
-        target.appendChild(glow);
-        setTimeout(() => glow.remove(), 1000);
+        // const glow = document.createElement('div');
+        // glow.className = 'expand-glow-effect';
+        // target.appendChild(glow);
+        // setTimeout(() => glow.remove(), 2000);
 
         // Particle burst
         for (let i = 0; i < 10; i++) {
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             heart.style.left = `${Math.random() * 100}%`;
             heart.style.animationDelay = `${Math.random()}s`;
             target.appendChild(heart);
-            setTimeout(() => heart.remove(), 1500);
+            setTimeout(() => heart.remove(), 3000);
         }
 
         // Add shimmer class to summary
