@@ -144,7 +144,7 @@ summary {
 }
 
 .shimmer-text {
-  background: linear-gradient(90deg, #ff7eb9, #ff65a3, #7afcff);
+  background: linear-gradient(90deg, #ff7eb9, #ff65a3, #7afcff, #ff7eb9);
   background-size: 200% auto;
   color: transparent;
   background-clip: text;
@@ -154,11 +154,11 @@ summary {
 
 @keyframes shimmer {
   0% {
-    background-position: 0% center;
+    background-position: 200% 0;
   }
 
   100% {
-    background-position: 200% center;
+    background-position: -200% 0;
   }
 }
 
