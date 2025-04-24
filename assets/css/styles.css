@@ -4,8 +4,6 @@ body {
   color: #333;
   margin: 0;
   padding: 20px;
-  cursor: none;
-  /* Hide default cursor */
 }
 
 header {
@@ -86,7 +84,11 @@ summary {
   color: #7f8c8d;
 }
 
-/* Custom Heart Cursor */
+body {
+  cursor: none;
+  /* Hide default cursor */
+}
+
 .heart-cursor {
   position: fixed;
   width: 20px;
@@ -96,11 +98,8 @@ summary {
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 10000;
-  transform: translate(-50%, -50%);
-  transition: transform 0.05s ease-out;
 }
 
-/* Sparkle Trail */
 .sparkle {
   position: absolute;
   width: 6px;
@@ -124,7 +123,6 @@ summary {
   }
 }
 
-/* Expandable Glow Effect */
 .expand-glow-effect {
   position: absolute;
   top: 0;
@@ -135,28 +133,44 @@ summary {
   border-radius: 8px;
   box-shadow: 0 0 20px 5px rgba(255, 105, 180, 0.6),
     0 0 30px 10px rgba(255, 192, 203, 0.4);
-  animation: expand-pop 1s ease-out forwards;
+  animation: bounce-pop 1s ease-out, background-color-transition 1s ease-out forwards;
   z-index: 5;
 }
 
-@keyframes expand-pop {
+@keyframes bounce-pop {
   0% {
     opacity: 0;
-    transform: scale(0.9);
+    transform: scale(0.8);
   }
 
   50% {
     opacity: 1;
-    transform: scale(1.02);
+    transform: scale(1.1);
   }
 
   100% {
-    opacity: 0;
+    opacity: 1;
     transform: scale(1);
   }
 }
 
-/* Heart Burst */
+@keyframes background-color-transition {
+  0% {
+    background-color: #3498db;
+    /* Initial color */
+  }
+
+  50% {
+    background-color: #f39c12;
+    /* Color transition */
+  }
+
+  100% {
+    background-color: #2ecc71;
+    /* Final color */
+  }
+}
+
 .burst-heart {
   position: absolute;
   bottom: 0;
@@ -165,6 +179,7 @@ summary {
   animation: float-heart 1.5s ease-out forwards;
   z-index: 10;
   pointer-events: none;
+  content: "♥";
 }
 
 .burst-heart::before {
@@ -183,7 +198,6 @@ summary {
   }
 }
 
-/* Shimmer Text */
 .shimmer-text {
   background: linear-gradient(90deg, #ff7eb9, #ff65a3, #7afcff);
   background-size: 200% auto;
@@ -203,7 +217,6 @@ summary {
   }
 }
 
-/* Slide & Fade Entrance */
 .slide-fade-in {
   animation: slideFade 1s ease forwards;
 }
