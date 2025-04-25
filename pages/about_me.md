@@ -102,6 +102,22 @@ permalink: /about/
     </ul>
   </div>
 </section>
+<section class="step">
+  <div class="container">
+    <div class="section-header">
+      <h2>💻 Riverdale Country School</h2>
+    </div>
+    <div class="content">
+      <h3>Computer Science Teacher | Aug 2023 – Jul 2024</h3>
+      <ul>
+        <li>Designed and taught advanced courses in Creative CS, Statistics with R, and Creative Tech Projects, merging technical skills with artistic expression 🎨💻.</li>
+        <li>Applied generative art and procedural storytelling techniques in video game design courses 🎮✨.</li>
+        <li>Enhanced curriculum with real-world applications and project-based learning, boosting engagement and problem-solving skills 🔍💡.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 
 <script src="assets/js/cats.js"></script>
 <script src="assets/js/mouse.js"></script>
