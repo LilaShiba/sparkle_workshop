@@ -8,6 +8,7 @@ body {
   color: #fff;
   /* White text */
   /* Hide default cursor */
+  cursor: 🐈 
 }
 header.site-header {
   display: none !important;
