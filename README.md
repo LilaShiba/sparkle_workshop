@@ -161,15 +161,6 @@ strip.setBrightness(128);  // 50% brightness
   </section>
 
 
-  <footer class="fireworks-footer">
-  <div class="sky">
-    <div class="firework"></div>
-    <div class="firework delay-1"></div>
-    <div class="firework delay-2"></div>
-  </div>
-  <div class="cityscape"></div>
-</footer>
-
   <!-- JS at the end for better performance -->
   <script src="assets/js/cats.js"></script>
   <script src="assets/js/mouse.js"></script>
