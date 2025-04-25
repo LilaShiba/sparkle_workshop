@@ -1,181 +1,175 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>✨ Project Sparkle ✨</title>
-  <link href="assets/css/styles.css" rel="stylesheet">
-  <script src="assets/js/cats.js"></script>
-  <script src="assets/js/confetti.js"></script>
-  <!-- <script src="assets/js/heartCursor.js"></script> -->
-  <script src="assets/js/expandEffect.js"></script>
-
-
-
+  <link href="assets/css/styles.css" rel="stylesheet" />
 </head>
 
 <body>
 
-<header>
-  <h1>🌙 ✨ Project Sparkle ✨ 🌙</h1>
-  <p>Welcome to your <strong>Flora NeoPixel</strong> adventure! 🌈✨🎉</p>
-</header>
+  <header>
+    <h1>🌙 ✨ Project Sparkle ✨ 🌙</h1>
+    <p>Welcome to your <strong>Flora NeoPixel</strong> adventure! 🌈✨🎉</p>
+  </header>
 
-<div class='emoji-cursor'>
-  <h2>🌟 What You Need 🌟</h2>
-  <p>Before you start, make sure you have the following:</p>
-  <ul>
-    <li><strong>Microcontroller</strong> (e.g., the Flora itself) ⚡</li>
-    <li><strong>Flora NeoPixel Strip</strong> (or a single Flora NeoPixel) 🌈</li>
-    <li><strong>Jumper Wires</strong> 🔌</li>
-  </ul>
-</div>
+  <section class="emoji-cursor">
+    <h2>🌟 What You Need 🌟</h2>
+    <p>Before you start, make sure you have the following:</p>
+    <ul>
+      <li><strong>Microcontroller</strong> (e.g., the Flora itself) ⚡</li>
+      <li><strong>Flora NeoPixel Strip</strong> (or a single Flora NeoPixel) 🌈</li>
+      <li><strong>Jumper Wires</strong> 🔌</li>
+    </ul>
+  </section>
 
-<div class="step">
-  <details>
-    <summary>⚙️ Step 1: Wiring the Flora NeoPixel ⚙️</summary>
-    <p>Here’s how to wire up your <strong>Flora NeoPixel</strong>:</p>
-    <ol>
-      <li><strong>Connect the Flora NeoPixel</strong> to your Arduino using jumper wires:
-        <ul>
-          <li><strong>Data Pin</strong>: Connect the data pin of the NeoPixel to <strong>Pin A1</strong> on your Flora.</li>
-          <li><strong>Power (VCC)</strong>: Connect to <strong>5V</strong> on the Arduino.</li>
-          <li><strong>Ground (GND)</strong>: Connect to <strong>GND</strong> on the Arduino.</li>
-        </ul>
-      </li>
-      <li>Your setup should look something like this:</li>
-      <img src="https://cdn-learn.adafruit.com/assets/assets/000/069/730/large1024/led_pixels_cpx_alligatorclips.jpg?1548106119" alt="Flora NeoPixel Wiring Diagram" style="max-width: 100%; height: auto;">
-    </ol>
-  </details>
-</div>
+  <section class="step">
+    <details>
+      <summary>⚙️ Step 1: Wiring the Flora NeoPixel ⚙️</summary>
+      <p>Here’s how to wire up your <strong>Flora NeoPixel</strong>:</p>
+      <ol>
+        <li>
+          <strong>Connect the Flora NeoPixel</strong> using jumper wires:
+          <ul>
+            <li><strong>Data Pin</strong>: Pin A1 on Flora</li>
+            <li><strong>Power (VCC)</strong>: 5V</li>
+            <li><strong>Ground (GND)</strong>: GND</li>
+          </ul>
+        </li>
+        <li>Your setup should look like this:</li>
+        <img src="https://cdn-learn.adafruit.com/assets/assets/000/069/730/large1024/led_pixels_cpx_alligatorclips.jpg?1548106119" 
+             alt="Flora NeoPixel Wiring Diagram" 
+             style="max-width: 100%; height: auto;" />
+      </ol>
+    </details>
+  </section>
 
-<div class="step emoji-cursor">
-  <details id="step2">
-    <summary>🔥 Step 2: Install the Adafruit NeoPixel Library 🌈</summary>
-    <p>1. Open the <strong>Arduino IDE</strong> (make sure it’s updated).</p>
-    <p>2. Go to <strong>Sketch > Include Library > Manage Libraries</strong>.</p>
-    <p>3. In the <strong>Library Manager</strong>, search for "<strong>Adafruit NeoPixel</strong>" and click <strong>Install</strong>.</p>
-    <p>This library lets us easily control the LEDs! ✨</p>
-    <p><a href="https://www.arduino.cc/en/software/" class="button">Get the IDE HERE</a></p>
-  </details>
-</div>
+  <section class="step emoji-cursor-book">
+    <details id="step2">
+      <summary>🔥 Step 2: Install the Adafruit NeoPixel Library 🌈</summary>
+      <p>1. Open the <strong>Arduino IDE</strong>.</p>
+      <p>2. Navigate to <strong>Sketch > Include Library > Manage Libraries</strong>.</p>
+      <p>3. Search for "<strong>Adafruit NeoPixel</strong>" and click <strong>Install</strong>.</p>
+      <p><a href="https://www.arduino.cc/en/software/" class="button">Get the IDE HERE</a></p>
+    </details>
+  </section>
 
-<div class="step">
-  <details>
-    <summary>💡 Step 3: Load the Example Code ✨</summary>
-    <p>To quickly start lighting up your NeoPixel, we’ll use the <strong>example code</strong> from the Adafruit NeoPixel library:</p>
-    <ol>
-      <li>Open your <strong>Arduino IDE</strong>.</li>
-      <li>Go to <strong>File > Examples > Adafruit NeoPixel > strandtest</strong>.</li>
-      <p>This will load the example code that can light up all your NeoPixel LEDs with a rainbow pattern! 🌈✨</p>
-    </ol>
-    <pre><code>
+  <section class="step">
+    <details>
+      <summary>💡 Step 3: Load the Example Code ✨</summary>
+      <p>We’ll use the <strong>strandtest</strong> example from the NeoPixel library:</p>
+      <ol>
+        <li>Open your <strong>Arduino IDE</strong>.</li>
+        <li>Go to <strong>File > Examples > Adafruit NeoPixel > strandtest</strong>.</li>
+      </ol>
+      <pre><code>
 #include &lt;Adafruit_NeoPixel.h&gt;
 
-#define PIN            6        // Pin where NeoPixel is connected
-#define NUMPIXELS      16       // Number of NeoPixels you have
+#define PIN        6
+#define NUMPIXELS  16
 
 Adafruit_NeoPixel strip(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
 void setup() {
-  strip.begin();               // Initialize the strip
-  strip.show();                // Initialize all pixels to 'off'
+  strip.begin();
+  strip.show();
 }
 
 void loop() {
-  // Light up each pixel to red
-  for(int i=0; i&lt;strip.numPixels(); i++) {
-    strip.setPixelColor(i, strip.Color(255,0,0)); // Red color
-    strip.show();  // Update the strip
-    delay(50);     // Delay between updates
+  for (int i = 0; i &lt; strip.numPixels(); i++) {
+    strip.setPixelColor(i, strip.Color(255, 0, 0)); // Red
+    strip.show();
+    delay(50);
   }
 }
-    </code></pre>
-  </details>
-</div>
+      </code></pre>
+    </details>
+  </section>
 
-<div class="step">
-  <details>
-    <summary>🚀 Step 4: Upload & Run 🚀</summary>
-    <p>1. <strong>Connect</strong> your Arduino to your computer via USB.</p>
-    <p>2. <strong>Select your board</strong> and <strong>port</strong> under <strong>Tools > Board</strong> and <strong>Tools > Port</strong>.</p>
-    <p>3. Hit the <strong>Upload</strong> button (the arrow icon) and watch your NeoPixels light up! 🎇</p>
-  </details>
-</div>
+  <section class="step">
+    <details>
+      <summary>🚀 Step 4: Upload & Run 🚀</summary>
+      <p>1. Connect your Arduino via USB.</p>
+      <p>2. Select your board and port in <strong>Tools</strong>.</p>
+      <p>3. Click <strong>Upload</strong> and enjoy the lights! 🎇</p>
+    </details>
+  </section>
 
-<div class="step">
-  <details>
-    <summary>🎉 Congratulations! 🎉</summary>
-    <p>You’ve successfully lit up your <strong>Flora NeoPixel</strong> strip! 🌈✨</p>
-  </details>
-</div>
+  <section class="step">
+    <details>
+      <summary>🎉 Congratulations! 🎉</summary>
+      <p>You’ve successfully lit up your <strong>Flora NeoPixel</strong> strip! 🌈✨</p>
+    </details>
+  </section>
 
-<div class="step">
-  <details>
-    <summary>🌈 Next Steps 🌙</summary>
-    <ul>
-      <li>Try changing the <strong>color</strong> to <strong>green</strong> (<code>strip.Color(0, 255, 0)</code>) or <strong>blue</strong> (<code>strip.Color(0, 0, 255)</code>).</li>
-      <li>Experiment with different <strong>animations</strong> to make your lights dance! 💃</li>
-    </ul>
-  </details>
-</div>
+  <section class="step">
+    <details>
+      <summary>🌈 Next Steps 🌙</summary>
+      <ul>
+        <li>Change color to <strong>green</strong>: <code>strip.Color(0, 255, 0)</code></li>
+        <li>Try different animations to make it dance! 💃</li>
+      </ul>
+    </details>
+  </section>
 
-<div class="step">
-  <details>
-    <summary>🌟 Troubleshooting Tips 🌟</summary>
-    <ul>
-      <li><strong>No lights?</strong> Double-check your wiring! Make sure the NeoPixel strip is connected properly to power (VCC), ground (GND), and the data pin.</li>
-      <li><strong>Blurry color?</strong> Ensure you're using a <strong>5V power source</strong> for your NeoPixels.</li>
-    </ul>
-  </details>
-</div>
+  <section class="step">
+    <details>
+      <summary>🌟 Troubleshooting Tips 🌟</summary>
+      <ul>
+        <li><strong>No lights?</strong> Double-check your wiring.</li>
+        <li><strong>Blurry color?</strong> Use a proper 5V power supply.</li>
+      </ul>
+    </details>
+  </section>
 
-<h2 class='shimmer-text'>Commands</h2>
-<p>Here are some common commands to control your NeoPixel setup, such as changing colors, adjusting brightness, and setting the number of pixels.</p>
+  <h2 class="shimmer-text">Commands</h2>
+  <p>Use these commands to change colors, brightness, and LED count:</p>
 
-<div class="step">
-  <details>
-    <summary>🔧 Changing the Color 🎨</summary>
-    <p>To change the color of the LEDs, you can adjust the <strong>RGB</strong> values in the <code>strip.setPixelColor()</code> function:</p>
-    <pre><code>
+  <section class="step">
+    <details>
+      <summary>🔧 Changing the Color 🎨</summary>
+      <p>Change RGB values with:</p>
+      <pre><code>
 strip.setPixelColor(pixel, strip.Color(red, green, blue));
-    </code></pre>
-    <p>For example, to make the NeoPixels glow <strong>green</strong>, change the line:</p>
-    <pre><code>
-strip.setPixelColor(i, strip.Color(255,0,0)); // Red color
-    </code></pre>
-    <p>to:</p>
-    <pre><code>
-strip.setPixelColor(i, strip.Color(0,255,0)); // Green color
-    </code></pre>
-  </details>
-</div>
+      </code></pre>
+      <p>Example for green:</p>
+      <pre><code>
+strip.setPixelColor(i, strip.Color(0, 255, 0));
+      </code></pre>
+    </details>
+  </section>
 
-<div class="step">
-  <details>
-    <summary>💡 Adjusting the Brightness</summary>
-    <p>You can control the brightness of the NeoPixels using <code>strip.setBrightness()</code>. This function takes a value from <strong>0</strong> (off) to <strong>255</strong> (full brightness).</p>
-    <p>For example, to set the brightness to <strong>50%</strong>:</p>
-    <pre><code>
-strip.setBrightness(128);  // Set brightness to 50%
-    </code></pre>
-  </details>
-</div>
+  <section class="step">
+    <details>
+      <summary>💡 Adjusting the Brightness</summary>
+      <p>Use <code>strip.setBrightness(value)</code> (0–255):</p>
+      <pre><code>
+strip.setBrightness(128);  // 50% brightness
+      </code></pre>
+    </details>
+  </section>
 
-<div class="step">
-  <details>
-    <summary>📏 Setting the Number of Pixels</summary>
-    <p>You can easily change the number of NeoPixels you’re using by modifying the <strong>NUMPIXELS</strong> variable:</p>
-    <pre><code>
-#define NUMPIXELS      10  // Number of NeoPixels you have
-    </code></pre>
-  </details>
-</div>
+  <section class="step">
+    <details>
+      <summary>📏 Setting the Number of Pixels</summary>
+      <p>Edit the <code>NUMPIXELS</code> value:</p>
+      <pre><code>
+#define NUMPIXELS 10
+      </code></pre>
+    </details>
+  </section>
 
-<div class="footer">
-  <p>🎉 You're ready to create your own light show with the Flora NeoPixel! 🌟💫</p>
-  <p>Now go forth and light up the world like the dazzling star you are! 🌟✨</p>
-  <p>Let me know if you want more fun examples! 😄</p>
-</div>
+  <footer class="footer">
+    <p>🎉 You're ready to create your own light show! 🌟💫</p>
+    <p>Now go forth and light up the world like the dazzling star you are! ✨</p>
+    <p>Need more examples? Just ask! 😄</p>
+  </footer>
 
+  <!-- JS at the end for better performance -->
+  <script src="assets/js/cats.js"></script>
+  <script src="assets/js/mouse.js"></script>
+  <script src="assets/js/confetti.js"></script>
+  <script src="assets/js/expandEffect.js"></script>
 </body>
 </html>
