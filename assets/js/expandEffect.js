@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const firstDetails = document.querySelector('step');
+    const firstDetails = document.querySelector('details');
     let effectAlreadyPlayed = false;
 
     if (firstDetails) {

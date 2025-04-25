@@ -12,9 +12,19 @@ permalink: /about/
       <h1>Lila James <span class="emoji">✨👩‍💻🌙</span></h1>
       <p>Technologist, Educator, and Artist</p>
       <p>📍 Brooklyn, NY | 📧 <a href="mailto:lilaresearch@gmail.com">lilaresearch@gmail.com</a></p>
-    </div>
+      <p>🎨 Portfolio<a href="https://github.com/LilaShiba"></p>
+     </div>
   </div>
 </section>
+<section class="step">
+  <div class="container">
+    <div class="section-header">
+        <p>Teaching Philosophy Informed by <a href="https://github.com/LilaShiba/SND_Agents/blob/main/Lila%20Jame%20Final%20Paper.pdf">Research</a></p>
+    </div>
+</div>
+</section>
+
+
 <section class="step">
   <div class="container">
     <div class="section-header">
