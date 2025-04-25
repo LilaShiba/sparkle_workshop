@@ -6,14 +6,14 @@
   <link href="assets/css/styles.css" rel="stylesheet" />
 </head>
 
-<body>
+<body class='cats'>
 
   <header>
     <h1>🌙 ✨ Project Sparkle ✨ 🌙</h1>
     <p>Welcome to your <strong>Flora NeoPixel</strong> adventure! 🌈✨🎉</p>
   </header>
 
-  <section class="emoji-cursor">
+  <section>
     <h2>🌟 What You Need 🌟</h2>
     <p>Before you start, make sure you have the following:</p>
     <ul>
@@ -46,7 +46,7 @@
 
   <section class="step emoji-cursor">
     <details id="step2">
-      <summary class='shimmer-text'>🔥 Step 2: Install the Adafruit NeoPixel Library 🌈</summary>
+      <summary>🔥 Step 2: Install the Adafruit NeoPixel Library 🌈</summary>
       <p>1. Open the <strong>Arduino IDE</strong>.</p>
       <p>2. Navigate to <strong>Sketch > Include Library > Manage Libraries</strong>.</p>
       <p>3. Search for "<strong>Adafruit NeoPixel</strong>" and click <strong>Install</strong>.</p>

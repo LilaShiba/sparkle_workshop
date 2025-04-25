@@ -3,8 +3,10 @@ body {
   margin: 0;
   padding: 20px;
   font-family: Arial, sans-serif;
-  background-color: #333;
-  color: #f4f4f4;
+  background-color: #000;
+  /* Black background */
+  color: #fff;
+  /* White text */
   cursor: none;
   /* Hide default cursor */
 }
@@ -16,13 +18,15 @@ h1 {
 }
 
 h2 {
-  color: #2c3e50;
+  color: #fff;
+  /* White for all headers */
   border-bottom: 2px solid #3498db;
   padding-bottom: 5px;
 }
 
 h3 {
-  color: #3498db;
+  color: #fff;
+  /* White for subheaders */
 }
 
 /* === Header === */
@@ -38,7 +42,8 @@ header {
 /* === Steps === */
 .step {
   position: relative;
-  background-color: #fff;
+  background-color: #333;
+  /* Dark background for steps */
   border-radius: 10px;
   padding: 20px;
   margin: 20px 0;
@@ -51,7 +56,8 @@ header {
 
 /* === Code & Preformatted Text === */
 pre {
-  background-color: #f1f1f1;
+  background-color: #444;
+  /* Darker background for code blocks */
   padding: 10px;
   border-radius: 5px;
   overflow-x: auto;
@@ -95,16 +101,17 @@ summary {
   color: #7f8c8d;
 }
 
-/* === Custom Cursor === */
-.heart-cursor {
+/* === Sparkle Cursor === */
+.sparkle-cursor {
   position: fixed;
-  width: 20px;
-  height: 20px;
-  background-image: url('data:image/svg+xml;utf8,<svg fill="deeppink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 29.6"><path d="M23.6 0c-3.1 0-5.8 1.9-7.6 4.9C14.2 1.9 11.5 0 8.4 0 3.8 0 0 3.8 0 8.4c0 7.5 16 21.2 16 21.2s16-13.7 16-21.2C32 3.8 28.2 0 23.6 0z"/></svg>');
-  background-size: contain;
-  background-repeat: no-repeat;
+  width: 8px;
+  height: 8px;
+  background: radial-gradient(circle, gold, orange);
+  border-radius: 50%;
   pointer-events: none;
   z-index: 10000;
+  mix-blend-mode: screen;
+  filter: drop-shadow(0 0 4px gold);
 }
 
 /* === Sparkle Effect === */
@@ -117,6 +124,8 @@ summary {
   pointer-events: none;
   animation: sparkle-fade 0.6s ease-out;
   z-index: 9999;
+  mix-blend-mode: screen;
+  filter: drop-shadow(0 0 4px gold);
 }
 
 @keyframes sparkle-fade {
@@ -127,30 +136,7 @@ summary {
 
   100% {
     opacity: 0;
-    transform: scale(0.4);
-  }
-}
-
-/* === Floating Hearts === */
-.burst-heart {
-  position: absolute;
-  bottom: 0;
-  font-size: 1.2rem;
-  color: hotpink;
-  animation: float-heart 13s ease-out forwards;
-  pointer-events: none;
-  z-index: 20;
-}
-
-@keyframes float-heart {
-  0% {
-    transform: translateY(0) scale(1);
-    opacity: 1;
-  }
-
-  100% {
-    transform: translateY(-100vh) scale(1.5);
-    opacity: 0;
+    transform: scale(0.4) translateY(-10px);
   }
 }
 
@@ -191,6 +177,15 @@ summary {
   }
 }
 
+/* === Glow Hover Effect (via JS) === */
+.glow-hover {
+  transition: box-shadow 0.3s ease;
+}
+
+.glow-hover.hovered {
+  box-shadow: 0 0 12px 4px var(--glow-color);
+}
+
 /* === Cat Float === */
 .cat {
   position: absolute;
@@ -212,16 +207,20 @@ summary {
   }
 }
 
-/* === Glow Hover Effect (via JS) === */
-.glow-hover {
-  transition: box-shadow 0.3s ease;
-}
+/* === Optional: Glow Sparkle Effect (optional for more magic) === */
+@keyframes glow {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
 
-.glow-hover.hovered {
-  box-shadow: 0 0 12px 4px var(--glow-color);
-}
+  50% {
+    opacity: 0.5;
+    transform: scale(1.5);
+  }
 
-.sparkle-cursor {
-  cursor: url('https://abs.twimg.com/emoji/v2/72x72/2728.png'), auto;
-  /* ✨ emoji PNG */
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }

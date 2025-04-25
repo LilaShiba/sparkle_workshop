@@ -24,11 +24,11 @@ document.addEventListener('DOMContentLoaded', () => {
         // }
 
         // Add shimmer class to summary
-        // const summary = target.querySelector('summary');
-        // if (summary) {
-        //     summary.classList.add('shimmer-text');
-        //     setTimeout(() => summary.classList.remove('shimmer-text'), 3000);
-        // }
+        const summary = target.querySelector('summary');
+        if (summary) {
+            summary.classList.add('shimmer-text');
+            setTimeout(() => summary.classList.remove('shimmer-text'), 3000);
+        }
 
         // Trigger slide+fade on content
         const content = target.querySelector(':scope > *:not(summary)');
