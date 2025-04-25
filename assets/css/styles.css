@@ -9,7 +9,7 @@ body {
   /* White text */
   /* Hide default cursor */
 }
-.site-header {
+header.site-header {
   display: none !important;
 }
 
