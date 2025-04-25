@@ -16,10 +16,10 @@ permalink: /about/
 
 <p>Hey there! I'm a Technologist, Educator, and Artist with over a decade of international experience. My projects span the space between science and art, as well as machine and human. You can see for yourself on my 🎨 <a href="https://github.com/LilaShiba" target="_blank">Portfolio</a>, and feel free to contribute to the ongoing work!</p>
 
-<p>My promise in the classroom is to always blend research with physical application. For example, 🧑‍🏫 <a href="https://github.com/LilaShiba/SND_Agents/blob/main/Lila%20Jame%20Final%20Paper.pdf" target="_blank">my Teaching Philosophy is informed by a mixture of research and trial</a>, offering insights into emerging technologies and how best to utilize them in the classroom. Think of it as embracing AI, not hiding from it.</p>
+<p>My approach to projects is to always blend research with physical application. For example, 🧑‍🏫 <a href="https://github.com/LilaShiba/SND_Agents/blob/main/Lila%20Jame%20Final%20Paper.pdf" target="_blank">my Teaching Philosophy & Software Development is informed by a mixture of research and trial</a>, offering insights into emerging technologies and how best to utilize them. Think of it as embracing AI, not hiding from it.</p>
 
 <p>Feel free to 📧 <a href="mailto:lilaresearch@gmail.com">lilaresearch@gmail.com</a> with any questions, requests, or for scheduling and pricing.</p>
-<details>
+<details style = 'text-align: center' >
   <summary>🐶 My Dog 🐶</summary>
   <p class='shimmer-text'> Say hi to Estelle</p>
   <img src="../assets/imgs/estelle.jpg" 
