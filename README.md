@@ -160,11 +160,15 @@ strip.setBrightness(128);  // 50% brightness
     </details>
   </section>
 
-  <footer class="footer">
-    <p>🎉 You're ready to create your own light show! 🌟💫</p>
-    <p>Now go forth and light up the world like the dazzling star you are! ✨</p>
-    <p>Need more examples? Just ask! 😄</p>
-  </footer>
+
+  <footer class="fireworks-footer">
+  <div class="sky">
+    <div class="firework"></div>
+    <div class="firework delay-1"></div>
+    <div class="firework delay-2"></div>
+  </div>
+  <div class="cityscape"></div>
+</footer>
 
   <!-- JS at the end for better performance -->
   <script src="assets/js/cats.js"></script>

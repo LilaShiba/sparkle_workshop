@@ -362,6 +362,7 @@ summary {
   animation: pan 60s linear infinite;
 }
 
+
 @keyframes pan {
   from {
     background-position: 0 bottom;
