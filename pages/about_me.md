@@ -7,6 +7,7 @@ permalink: /about/
   <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
+
 <body class='cats'>
   <section class="step">
     <div class="container">
@@ -17,7 +18,7 @@ permalink: /about/
 
 <p>My promise in the classroom is to always blend research with physical application. For example, 🧑‍🏫 <a href="https://github.com/LilaShiba/SND_Agents/blob/main/Lila%20Jame%20Final%20Paper.pdf" target="_blank">my Teaching Philosophy is informed by a mixture of research and trial</a>, offering insights into emerging technologies and how best to utilize them in the classroom. Think of it as embracing AI, not hiding from it.</p>
 
-<p>Feel free to reach out with any questions, requests, or for scheduling and pricing.</p>
+<p>Feel free to 📧 <a href="mailto:lilaresearch@gmail.com">lilaresearch@gmail.com</a> reach out with any questions, requests, or for scheduling and pricing.</p>
       </div>
     </div>
   </section>
