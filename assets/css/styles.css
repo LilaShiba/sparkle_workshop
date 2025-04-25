@@ -9,6 +9,9 @@ body {
   /* White text */
   /* Hide default cursor */
 }
+.banner {
+  display: none !important;
+}
 
 /* === Typography === */
 h1 {
