@@ -13,7 +13,7 @@
 
 <body class='cats'>
 <div class="gif-container">
-  <img src="https://github.com/LilaShiba/flora_dress/raw/main/assets/videos/iterate.gif" alt="Iteration GIF">
+  <img src="https://github.com/LilaShiba/flora_dress/raw/main/assets/videos/iterate.gif" alt="Iteration GIF" style="max-width: 50%; height: auto;" >
 </div>
   <section>
     <h2>🌟 What You Need 🌟</h2>

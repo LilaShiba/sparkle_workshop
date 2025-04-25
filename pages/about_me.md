@@ -22,15 +22,13 @@ permalink: /about/
       </div>
     </div>
   </section>
+<details>
+  <summary>🐶 My Dog 🐶</summary>
+  <img src="../assets/imgs/estelle.jpg" 
+       alt="Estelle" 
+       style="max-width: 50%; height: auto;" />
+</details>
 
-  <section class="step">
-    <details>
-      <summary>🐶 My Dog 🐶</summary>
-        <img src="https://photos.google.com/share/AF1QipP8RF-gnkmL0vMXrZcAxFhYWeicVC2TzRRv8u-BUIb89EZTLXCYmaNZVQIo_9w_iA/photo/AF1QipNkcwcbFUron3W5gfyt4wH7ZOakBjgbmmtr-VgO?key=UFlwLTJnN1BOVHBscnNySHdqTDN6SkRwd25UZDdn" 
-             alt="Flora NeoPixel Wiring Diagram" 
-             style="max-width: 50%; height: auto;" />
-    </details>
-  </section>
   <section class="step">
     <div class="container">
       <div class="section-header">
