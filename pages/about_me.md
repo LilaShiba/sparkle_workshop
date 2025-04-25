@@ -6,7 +6,7 @@ permalink: /about/
 <head>
   <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
-
+<body>
 <section class="step">
   <div class="container">
     <div class="header">
