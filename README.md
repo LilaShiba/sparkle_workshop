@@ -50,7 +50,7 @@
   </section>
 
   <section class="step">
-    <details'>
+    <details>
       <summary>💡 Step 3: Load the Example Code ✨</summary>
       <p>We’ll use the <strong>strandtest</strong> example from the NeoPixel library:</p>
       <ol>
