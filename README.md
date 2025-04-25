@@ -3,11 +3,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>✨ Project Sparkle ✨</title>
-  <link href="assets/css/styles.css" rel="stylesheet" />
+  <link href="/assets/css/styles.css" rel="stylesheet" />
 </head>
 <header>
      <h1>🌙 ✨ Project Sparkle ✨ 🌙</h1>
-     <p>Welcome to your <strong>Flora NeoPixel</strong> adventure! 🌈✨🎉</p>
+     <p>Where <strong>Fashion</strong> Meets Technology🌈✨🎉</p>
   </header>
 
 <body class='cats'>
