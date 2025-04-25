@@ -11,16 +11,30 @@ permalink: /about/
   <section class="step">
     <div class="container">
       <div class="header">
-        <h1>Lila James <span class="emoji">✨👩‍💻🌙</span></h1>
-        <p>Technologist, Educator, and Artist</p>
-        <p>📍 Contact 📧 <a href="mailto:lilaresearch@gmail.com">lilaresearch@gmail.com</a></p>
-        <p>🎨<a href="https://github.com/LilaShiba" target="_blank"> Portfolio of Work</a></p>
-        <p>🧑‍🏫<a href="https://github.com/LilaShiba/SND_Agents/blob/main/Lila%20Jame%20Final%20Paper.pdf" target="_blank"> Teaching Philosophy Informed by Research</a></p>
+   <h1>Lila James <span class="emoji">✨👩‍💻🌙</span></h1>
+
+<p>Hey there! I'm a Technologist, Educator, and Artist with over a decade of international experience. My projects span the space between science and art, as well as machine and human. You can see for yourself on my 🎨 <a href="https://github.com/LilaShiba" target="_blank">Portfolio</a>, and feel free to contribute to the ongoing work!</p>
+
+<p>My promise in the classroom is to always blend research with physical application. For example, 🧑‍🏫 <a href="https://github.com/LilaShiba/SND_Agents/blob/main/Lila%20Jame%20Final%20Paper.pdf" target="_blank">my Teaching Philosophy is informed by a mixture of research and trial</a>, offering insights into emerging technologies and how best to utilize them in the classroom. Think of it as embracing AI, not hiding from it.</p>
+
+<p>Feel free to reach out with any questions, requests, or for scheduling and pricing.</p>
       </div>
     </div>
   </section>
 
-  <section class="step .glow-hover">
+<section class="step">
+    <details>
+      <summary>🔥 Step 2: Install the Adafruit NeoPixel Library 🌈</summary>
+      <p>1. Open the <strong>Arduino IDE</strong>.</p>
+      <p>2. Navigate to <strong>Sketch > Include Library > Manage Libraries</strong>.</p>
+      <p>3. Search for "<strong>Adafruit NeoPixel</strong>" and click <strong>Install</strong>.</p>
+      <p><a href="https://www.arduino.cc/en/software/" class="button">Get the IDE HERE</a></p>
+    </details>
+  </section>
+
+
+
+  <section class="step">
     <div class="container">
       <div class="section-header">
         <h2>🎓 Education</h2>
