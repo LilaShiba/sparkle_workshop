@@ -5,6 +5,10 @@
   <title>✨ Project Sparkle ✨</title>
   <link href="assets/css/styles.css" rel="stylesheet" />
 </head>
+<header>
+     <h1>🌙 ✨ Project Sparkle ✨ 🌙</h1>
+     <p>Welcome to your <strong>Flora NeoPixel</strong> adventure! 🌈✨🎉</p>
+  </header>
 
 <body class='cats'>
 
