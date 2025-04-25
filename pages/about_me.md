@@ -98,7 +98,7 @@ permalink: /about/
   </section>
 
   <section class="step glow-hover">
-        <h3>💻 Riverdale Country School</h2>
+        <h3>💻 Riverdale Country School</h3>
         <p>Computer Science Teacher | Aug 2023 – Jul 2024</p>
         <ul>
           <li>Designed and taught advanced courses in Creative CS, Statistics with R, and Creative Tech Projects, merging technical skills with artistic expression 🎨💻.</li>
@@ -106,6 +106,15 @@ permalink: /about/
           <li>Enhanced curriculum with real-world applications and project-based learning, boosting engagement and problem-solving skills 🔍💡.</li>
         </ul>
       </div>
+  </section>
+    <section class="step">
+    <details>
+      <summary>📏 Setting the Number of Pixels</summary>
+      <p>Edit the <code>NUMPIXELS</code> value:</p>
+      <pre><code>
+#define NUMPIXELS 10
+      </code></pre>
+    </details>
   </section>
 
   <script src="assets/js/cats.js"></script>
