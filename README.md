@@ -4,9 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>✨ Project Sparkle ✨</title>
   <link href="assets/css/styles.css" rel="stylesheet">
+  <script src="assets/js/cats.js"></script>
   <script src="assets/js/confetti.js"></script>
-  <script src="assets/js/heartCursor.js"></script>
+  <!-- <script src="assets/js/heartCursor.js"></script> -->
   <script src="assets/js/expandEffect.js"></script>
+
 
 
 </head>
@@ -18,13 +20,15 @@
   <p>Welcome to your <strong>Flora NeoPixel</strong> adventure! 🌈✨🎉</p>
 </header>
 
-<h2>🌟 What You Need 🌟</h2>
-<p>Before you start, make sure you have the following:</p>
-<ul>
-  <li><strong>Microcontroller</strong> (e.g., the Flora itself) ⚡</li>
-  <li><strong>Flora NeoPixel Strip</strong> (or a single Flora NeoPixel) 🌈</li>
-  <li><strong>Jumper Wires</strong> 🔌</li>
-</ul>
+<div class='emoji-cursor'>
+  <h2>🌟 What You Need 🌟</h2>
+  <p>Before you start, make sure you have the following:</p>
+  <ul>
+    <li><strong>Microcontroller</strong> (e.g., the Flora itself) ⚡</li>
+    <li><strong>Flora NeoPixel Strip</strong> (or a single Flora NeoPixel) 🌈</li>
+    <li><strong>Jumper Wires</strong> 🔌</li>
+  </ul>
+</div>
 
 <div class="step">
   <details>
@@ -44,8 +48,8 @@
   </details>
 </div>
 
-<div class="step">
-  <details>
+<div class="step emoji-cursor">
+  <details id="step2">
     <summary>🔥 Step 2: Install the Adafruit NeoPixel Library 🌈</summary>
     <p>1. Open the <strong>Arduino IDE</strong> (make sure it’s updated).</p>
     <p>2. Go to <strong>Sketch > Include Library > Manage Libraries</strong>.</p>

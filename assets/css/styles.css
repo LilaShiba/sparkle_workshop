@@ -1,22 +1,15 @@
+/* === Base Styles === */
 body {
+  margin: 0;
+  padding: 20px;
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   color: #333;
-  margin: 0;
-  padding: 20px;
   cursor: none;
   /* Hide default cursor */
 }
 
-header {
-  text-align: center;
-  background-color: #2c3e50;
-  color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
+/* === Typography === */
 h1 {
   font-size: 2.5em;
   margin: 0;
@@ -32,7 +25,19 @@ h3 {
   color: #3498db;
 }
 
+/* === Header === */
+header {
+  text-align: center;
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* === Steps === */
 .step {
+  position: relative;
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
@@ -44,6 +49,7 @@ h3 {
   margin-top: 0;
 }
 
+/* === Code & Preformatted Text === */
 pre {
   background-color: #f1f1f1;
   padding: 10px;
@@ -56,6 +62,7 @@ code {
   color: #e74c3c;
 }
 
+/* === Buttons === */
 .button {
   display: inline-block;
   background-color: #3498db;
@@ -64,12 +71,14 @@ code {
   border-radius: 5px;
   text-decoration: none;
   margin-top: 10px;
+  transition: background-color 0.3s ease;
 }
 
 .button:hover {
   background-color: #2980b9;
 }
 
+/* === Details & Footer === */
 details {
   margin-bottom: 15px;
 }
@@ -86,17 +95,19 @@ summary {
   color: #7f8c8d;
 }
 
+/* === Custom Cursor === */
 .heart-cursor {
   position: fixed;
   width: 20px;
   height: 20px;
-  pointer-events: none;
   background-image: url('data:image/svg+xml;utf8,<svg fill="deeppink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 29.6"><path d="M23.6 0c-3.1 0-5.8 1.9-7.6 4.9C14.2 1.9 11.5 0 8.4 0 3.8 0 0 3.8 0 8.4c0 7.5 16 21.2 16 21.2s16-13.7 16-21.2C32 3.8 28.2 0 23.6 0z"/></svg>');
   background-size: contain;
   background-repeat: no-repeat;
+  pointer-events: none;
   z-index: 10000;
 }
 
+/* === Sparkle Effect === */
 .sparkle {
   position: absolute;
   width: 6px;
@@ -120,15 +131,15 @@ summary {
   }
 }
 
+/* === Floating Hearts === */
 .burst-heart {
   position: absolute;
   bottom: 0;
   font-size: 1.2rem;
   color: hotpink;
   animation: float-heart 13s ease-out forwards;
-  z-index: 20;
   pointer-events: none;
-  content: "♥";
+  z-index: 20;
 }
 
 @keyframes float-heart {
@@ -143,6 +154,7 @@ summary {
   }
 }
 
+/* === Shimmer Text === */
 .shimmer-text {
   background: linear-gradient(90deg, #ff7eb9, #ff65a3, #7afcff, #ff7eb9);
   background-size: 200% auto;
@@ -162,6 +174,7 @@ summary {
   }
 }
 
+/* === Slide Fade In === */
 .slide-fade-in {
   animation: slideFade 1s ease forwards;
 }
@@ -176,4 +189,34 @@ summary {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* === Cat Float === */
+.cat {
+  position: absolute;
+  font-size: 2rem;
+  animation: floatUp 2s ease-out forwards;
+  pointer-events: none;
+  z-index: 999;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+}
+
+/* === Glow Hover Effect (via JS) === */
+.glow-hover {
+  transition: box-shadow 0.3s ease;
+}
+
+.glow-hover.hovered {
+  box-shadow: 0 0 12px 4px var(--glow-color);
 }
