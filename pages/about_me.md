@@ -18,12 +18,19 @@ permalink: /about/
 
 <p>My promise in the classroom is to always blend research with physical application. For example, 🧑‍🏫 <a href="https://github.com/LilaShiba/SND_Agents/blob/main/Lila%20Jame%20Final%20Paper.pdf" target="_blank">my Teaching Philosophy is informed by a mixture of research and trial</a>, offering insights into emerging technologies and how best to utilize them in the classroom. Think of it as embracing AI, not hiding from it.</p>
 
-<p>Feel free to 📧 <a href="mailto:lilaresearch@gmail.com">lilaresearch@gmail.com</a> reach out with any questions, requests, or for scheduling and pricing.</p>
+<p>Feel free to 📧 <a href="mailto:lilaresearch@gmail.com">lilaresearch@gmail.com</a> with any questions, requests, or for scheduling and pricing.</p>
       </div>
     </div>
   </section>
 
-
+  <section class="step">
+    <details>
+      <summary>🐶 My Dog 🐶</summary>
+        <img src="https://photos.google.com/share/AF1QipP8RF-gnkmL0vMXrZcAxFhYWeicVC2TzRRv8u-BUIb89EZTLXCYmaNZVQIo_9w_iA/photo/AF1QipNkcwcbFUron3W5gfyt4wH7ZOakBjgbmmtr-VgO?key=UFlwLTJnN1BOVHBscnNySHdqTDN6SkRwd25UZDdn" 
+             alt="Flora NeoPixel Wiring Diagram" 
+             style="max-width: 50%; height: auto;" />
+    </details>
+  </section>
   <section class="step">
     <div class="container">
       <div class="section-header">
