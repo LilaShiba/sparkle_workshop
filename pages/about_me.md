@@ -5,68 +5,85 @@ permalink: /about/
 ---
 
 # About Me
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lila James - About Me</title>
-  <link rel="stylesheet" href="../assets/css/styles.css"> <!-- Link to the CSS file -->
-</head>
-<div class="container">
-  <div class="header">
-    <h1>Lila James <span class="emoji">👩‍💻</span></h1>
-    <p>Linux System Administrator | AI-Powered SaaS Developer</p>
-    <p>📍 Brooklyn, NY | 📧 <a href="mailto:lilaresearch@gmail.com">lilaresearch@gmail.com</a></p>
+
+<section class="section">
+  <div class="container">
+    <div class="header">
+      <h1>Lila James <span class="emoji">👩‍💻</span></h1>
+      <p>Linux System Administrator | AI-Powered SaaS Developer</p>
+      <p>📍 Brooklyn, NY | 📧 <a href="mailto:lilaresearch@gmail.com">lilaresearch@gmail.com</a></p>
+    </div>
   </div>
-  <div class="steps">
-    <div class="step">
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
       <h2>🎓 Education</h2>
+    </div>
+    <div class="content">
       <h3>Georgia Institute of Technology</h3>
       <p>M.Sc. in Computer Science (2024)</p>
       <h3>Towson University</h3>
       <p>B.S. in Sociology (2010)</p>
     </div>
-    <div class="step">
-      <details>💻 Software Experience</details>
-      <h3>Unqork | Engineer | Apr 2020 – 2023</h3>
-      <ul>
-        <li>Developed and launched fintech applications contributing to $10M+ in secured contracts 💰.</li>
-        <li>Engineered proprietary data frameworks for optimized API performance 📈.</li>
-        <li>Built custom tooling for JavaScript and database interoperability, increasing operational efficiency by 25% 🔧.</li>
-      </ul>
-      <details>Design & Intelligence Lab at Georgia Institute of Technology</details>
-      <h3>| Graduate Researcher | Dec 2023 – June 2024</h3>
-      <ul>
-        <li>Deployed custom LLM-based chat agents using NLP models across 3 MOOCs 💬.</li>
-        <li>Optimized data pipelines to enhance model performance and user experience 🚀.</li>
-        <li>Collaborated in agile development cycles, contributing to code reviews and Git workflows 🔄.</li>
-      </ul>
-      <details>Decoded </details>
-      <h3>Product Manager & Technology Consultant | Aug 2018 – Mar 2020</h3>
-      <ul>
-        <li>Streamlined client onboarding, reducing setup time by 30% ⏱️.</li>
-        <li>Maintained NPS above 80% for all clients ⭐.</li>
-      </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>💻 Professional Experience</h2>
     </div>
-    <div class="step">
-      <h2>📚 Teaching Experience</h2>
-      <details>Teach For America </details> 
-      <h3>Secondary English Teacher | Jun 2013 – Jun 2016</h3>
+    <div class="content">
+      <h3>Unqork</h3>
+      <p>Software Engineer | Apr 2020 – 2023</p>
       <ul>
-        <li>Applied data-driven instruction to close learning gaps 📊.</li>
-        <li>Created engaging lesson plans to enhance critical thinking and communication skills 📝.</li>
+        <li>Developed and launched fintech applications contributing to over $10M in secured contracts.</li>
+        <li>Engineered proprietary data frameworks to optimize API performance and scalability.</li>
+        <li>Built custom tooling for JavaScript and database interoperability, increasing operational efficiency by 25%.</li>
       </ul>
-      <details>Dwight School </details>
-      <h3> IB Computer Science Teacher | Aug 2016 – Jul 2018</h3>
+      <h3>Design & Intelligence Lab at Georgia Institute of Technology</h3>
+      <p>Graduate Researcher | Dec 2023 – Jun 2024</p>
       <ul>
-        <li>Developed Python and Java curriculum, increasing class enrollment by 300% 📈.</li>
-        <li>Applied project-based learning to strengthen algorithm design and problem-solving skills 💡.</li>
+        <li>Deployed custom LLM-based chat agents using NLP models across three MOOCs, enhancing user engagement.</li>
+        <li>Optimized data pipelines, resulting in improved model performance and overall user experience.</li>
+        <li>Collaborated in agile development cycles, contributing to code reviews and Git workflows.</li>
       </ul>
-      <details>Riverdale Country School </details> 
-      <h3>Computer Science Teacher | Aug 2023 – Jul 2024</h3>
+      <h3>Decoded</h3>
+      <p>Product Manager & Technology Consultant | Aug 2018 – Mar 2020</p>
       <ul>
-        <li>Designed and taught advanced courses in Creative CS and Statistics with R 💻📊.</li>
-        <li>Applied generative art and procedural storytelling techniques in video game design courses 🎮.</li>
+        <li>Streamlined client onboarding processes, reducing setup time by 30%.</li>
+        <li>Maintained a Net Promoter Score (NPS) of over 80% for all clients, ensuring high customer satisfaction.</li>
       </ul>
     </div>
   </div>
-</div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>📚 Teaching Experience</h2>
+    </div>
+    <div class="content">
+      <h3>Teach For America</h3>
+      <p>Secondary English Teacher | Jun 2013 – Jun 2016</p>
+      <ul>
+        <li>Implemented data-driven instruction techniques to address and close learning gaps.</li>
+        <li>Designed engaging lesson plans to foster critical thinking and communication skills.</li>
+      </ul>
+      <h3>Dwight School</h3>
+      <p>IB Computer Science Teacher | Aug 2016 – Jul 2018</p>
+      <ul>
+        <li>Developed comprehensive Python and Java curriculum, increasing class enrollment by 300%.</li>
+        <li>Utilized project-based learning to reinforce algorithm design and problem-solving abilities.</li>
+      </ul>
+      <h3>Riverdale Country School</h3>
+      <p>Computer Science Teacher | Aug 2023 – Jul 2024</p>
+      <ul>
+        <li>Designed and delivered advanced courses in Creative Computer Science and Statistics with R.</li>
+        <li>Incorporated generative art and procedural storytelling in video game design curriculum.</li>
+      </ul>
+    </div>
+  </div>
+</section>
