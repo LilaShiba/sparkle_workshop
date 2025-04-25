@@ -11,7 +11,9 @@
   </header>
 
 <body class='cats'>
-
+<div class="gif-container">
+  <img src="https://github.com/LilaShiba/flora_dress/raw/main/assets/videos/iterate.gif" alt="Iteration GIF">
+</div>
   <section>
     <h2>🌟 What You Need 🌟</h2>
     <p>Before you start, make sure you have the following:</p>
