@@ -7,7 +7,7 @@ permalink: /about/
   <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
-<body>
+<body class='cats'>
   <section class="step">
     <div class="container">
       <div class="header">
@@ -20,7 +20,7 @@ permalink: /about/
     </div>
   </section>
 
-  <section class="step glow-hover">
+  <section class="step .glow-hover">
     <div class="container">
       <div class="section-header">
         <h2>🎓 Education</h2>
@@ -105,17 +105,8 @@ permalink: /about/
           <li>Applied generative art and procedural storytelling techniques in video game design courses 🎮✨.</li>
           <li>Enhanced curriculum with real-world applications and project-based learning, boosting engagement and problem-solving skills 🔍💡.</li>
         </ul>
-      </div>
   </section>
-    <section class="step">
-    <details>
-      <summary>📏 Setting the Number of Pixels</summary>
-      <p>Edit the <code>NUMPIXELS</code> value:</p>
-      <pre><code>
-#define NUMPIXELS 10
-      </code></pre>
-    </details>
-  </section>
+
 
   <script src="assets/js/cats.js"></script>
   <script src="assets/js/mouse.js"></script>
