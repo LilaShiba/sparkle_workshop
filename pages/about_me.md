@@ -22,17 +22,6 @@ permalink: /about/
     </div>
   </section>
 
-<section class="step">
-    <details>
-      <summary>🔥 Step 2: Install the Adafruit NeoPixel Library 🌈</summary>
-      <p>1. Open the <strong>Arduino IDE</strong>.</p>
-      <p>2. Navigate to <strong>Sketch > Include Library > Manage Libraries</strong>.</p>
-      <p>3. Search for "<strong>Adafruit NeoPixel</strong>" and click <strong>Install</strong>.</p>
-      <p><a href="https://www.arduino.cc/en/software/" class="button">Get the IDE HERE</a></p>
-    </details>
-  </section>
-
-
 
   <section class="step">
     <div class="container">

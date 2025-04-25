@@ -8,6 +8,7 @@
 <header>
      <h1>🌙 ✨ Project Sparkle ✨ 🌙</h1>
      <p>Where <strong>Fashion</strong> Meets Technology🌈✨🎉</p>
+     
   </header>
 
 <body class='cats'>
