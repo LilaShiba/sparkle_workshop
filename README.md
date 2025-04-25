@@ -55,7 +55,7 @@
   </section>
 
   <section class="step">
-    <details'>
+    <details>
       <summary>💡 Step 3: Load the Example Code ✨</summary>
       <p>We’ll use the <strong>strandtest</strong> example from the NeoPixel library:</p>
       <ol>
@@ -63,25 +63,25 @@
         <li>Go to <strong>File > Examples > Adafruit NeoPixel > strandtest</strong>.</li>
       </ol>
       <pre><code>
-          #include &lt;Adafruit_NeoPixel.h&gt;
+#include <Adafruit_NeoPixel.h>
 
-          #define PIN        6
-          #define NUMPIXELS  16
+#define PIN        6
+#define NUMPIXELS  16
 
-          Adafruit_NeoPixel strip(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel strip(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
-          void setup() {
-            strip.begin();
-            strip.show();
-          }
+void setup() {
+  strip.begin();
+  strip.show();
+}
 
-          void loop() {
-            for (int i = 0; i &lt; strip.numPixels(); i++) {
-              strip.setPixelColor(i, strip.Color(255, 0, 0)); // Red
-              strip.show();
-              delay(50);
-            }
-          }
+void loop() {
+  for (int i = 0; i < strip.numPixels(); i++) {
+    strip.setPixelColor(i, strip.Color(255, 0, 0)); // Red
+    strip.show();
+    delay(50);
+  }
+}
       </code></pre>
     </details>
   </section>
