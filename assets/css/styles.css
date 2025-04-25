@@ -7,7 +7,6 @@ body {
   /* Black background */
   color: #fff;
   /* White text */
-  cursor: none;
   /* Hide default cursor */
 }
 
@@ -68,13 +67,12 @@ pre {
   border-radius: 5px;
   overflow-x: auto;
   max-width: 100%;
-  color: #ecf0f1;
   /* Light color for code text */
   font-size: 0.95em;
 }
 
 code {
-  color: #e74c3c;
+  color: #e73ca5;
   /* Red for code highlights */
 }
 
