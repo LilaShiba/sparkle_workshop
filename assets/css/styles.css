@@ -237,3 +237,29 @@ summary {
     transform: scale(1);
   }
 }
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: linear-gradient(145deg, #2c2c2c, #3a3a3a);
+  border-radius: 1.5rem;
+  box-shadow: 0 0 20px rgba(186, 134, 252, 0.5);
+  max-width: 90%;
+}
+
+.gif-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  border: 2px solid #ba86fc;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.gif-container img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
