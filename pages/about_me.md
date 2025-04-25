@@ -5,7 +5,12 @@ permalink: /about/
 ---
 
 # About Me
-
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lila James - About Me</title>
+  <link rel="stylesheet" href="../assets/css/styles.css"> <!-- Link to the CSS file -->
+</head>
 <div class="container">
   <div class="header">
     <h1>Lila James <span class="emoji">👩‍💻</span></h1>
