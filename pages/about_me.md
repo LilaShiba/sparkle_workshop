@@ -20,10 +20,11 @@ permalink: /about/
 
 <p>Feel free to 📧 <a href="mailto:lilaresearch@gmail.com">lilaresearch@gmail.com</a> with any questions, requests, or for scheduling and pricing.</p>
 <details>
-  <summary class='shimmer-text'>🐶 My Dog 🐶</summary>
+  <summary>🐶 My Dog 🐶</summary>
+  <p class='shimmer-text'> Say hi to Estelle</p>
   <img src="../assets/imgs/estelle.jpg" 
        alt="Estelle" 
-       style="max-width: 50%; height: auto;" />
+       style="max-width: 75%; height: auto;" />
 </details>
       </div>
     </div>
