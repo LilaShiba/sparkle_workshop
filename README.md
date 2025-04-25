@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -45,7 +44,7 @@
     </details>
   </section>
 
-  <section class="step emoji-cursor-book">
+  <section class="step emoji-cursor">
     <details id="step2">
       <summary>🔥 Step 2: Install the Adafruit NeoPixel Library 🌈</summary>
       <p>1. Open the <strong>Arduino IDE</strong>.</p>
@@ -55,7 +54,7 @@
     </details>
   </section>
 
-  <section class="step">
+  <section class="step cats">
     <details>
       <summary>💡 Step 3: Load the Example Code ✨</summary>
       <p>We’ll use the <strong>strandtest</strong> example from the NeoPixel library:</p>

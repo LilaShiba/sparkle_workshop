@@ -1,4 +1,4 @@
-const step = document.getElementById('step2');
+const step = document.getElementById('cats');
 step.addEventListener('toggle', () => {
     if (step.open) {
         for (let i = 0; i < 6; i++) {

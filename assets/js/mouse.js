@@ -37,7 +37,7 @@ function randomNeon() {
     return neonColors[Math.floor(Math.random() * neonColors.length)];
 }
 
-document.querySelectorAll('.step, details').forEach(el => {
+document.querySelectorAll('.step').forEach(el => {
     el.classList.add('glow-hover');
     el.addEventListener('mouseenter', () => {
         el.style.setProperty('--glow-color', randomNeon());
