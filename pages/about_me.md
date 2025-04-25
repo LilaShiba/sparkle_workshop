@@ -13,14 +13,14 @@ permalink: /about/
       <div class="header">
         <h1>Lila James <span class="emoji">✨👩‍💻🌙</span></h1>
         <p>Technologist, Educator, and Artist</p>
-        <p>📍 Brooklyn, NY | 📧 <a href="mailto:lilaresearch@gmail.com">lilaresearch@gmail.com</a></p>
-        <p>🎨 Portfolio <a href="https://github.com/LilaShiba" target="_blank">of Work</a></p>
-        <p>🧑‍🏫 Teaching Philosophy Informed by <a href="https://github.com/LilaShiba/SND_Agents/blob/main/Lila%20Jame%20Final%20Paper.pdf" target="_blank">Research</a></p>
+        <p>📍 Contact 📧 <a href="mailto:lilaresearch@gmail.com">lilaresearch@gmail.com</a></p>
+        <p>🎨<a href="https://github.com/LilaShiba" target="_blank"> Portfolio of Work</a></p>
+        <p>🧑‍🏫<a href="https://github.com/LilaShiba/SND_Agents/blob/main/Lila%20Jame%20Final%20Paper.pdf" target="_blank"> Teaching Philosophy Informed by Research</a></p>
       </div>
     </div>
   </section>
 
-  <section class="step">
+  <section class="step glow-hover">
     <div class="container">
       <div class="section-header">
         <h2>🎓 Education</h2>
@@ -39,7 +39,7 @@ permalink: /about/
       <div class="section-header">
         <h2>💻 Professional Experience</h2>
       </div>
-      <div class="step">
+      <div class="step glow-hover">
         <h3>Unqork <span class="emoji">🖥️🌙</span></h3>
         <p>Software Engineer | Apr 2020 – 2023</p>
         <ul>
@@ -51,7 +51,7 @@ permalink: /about/
     </div>
   </section>
 
-  <section class="step">
+  <section class="step glow-hover">
     <div class="container">
       <h3>🔬 Graduate Research Experience</h3>
       <p>Design & Intelligence Lab at Georgia Institute of Technology <span class="emoji">🧑‍💻✨</span></p>
@@ -64,7 +64,7 @@ permalink: /about/
     </div>
   </section>
 
-  <section class="step">
+  <section class="step glow-hover">
     <div class="container">
       <h3>Decoded <span class="emoji">🔮💻</span></h3>
       <p>Product Manager & Technology Consultant | Aug 2018 – Mar 2020</p>
@@ -79,7 +79,7 @@ permalink: /about/
     <div class="section-header">
       <h2>📚 Teaching Experience</h2>
     </div>
-    <div class="step">
+    <div class="step glow-hover">
       <h3>Teach For America <span class="emoji">🌸📚</span></h3>
       <p>Secondary English Teacher | Jun 2013 – Jun 2016</p>
       <ul>
@@ -87,7 +87,7 @@ permalink: /about/
         <li>Created engaging lesson plans to enhance critical thinking and communication skills 📝.</li>
       </ul>
     </div>
-    <div class="step">
+    <div class="step glow-hover">
       <h3>Dwight School <span class="emoji">💻✨</span></h3>
       <p>IB Computer Science Teacher | Aug 2016 – Jul 2018</p>
       <ul>
@@ -97,20 +97,15 @@ permalink: /about/
     </div>
   </section>
 
-  <section class="step">
-    <div class="container">
-      <div class="section-header">
-        <h2>💻 Riverdale Country School</h2>
-      </div>
-      <div class="content">
-        <h3>Computer Science Teacher | Aug 2023 – Jul 2024</h3>
+  <section class="step glow-hover">
+        <h3>💻 Riverdale Country School</h2>
+        <p>Computer Science Teacher | Aug 2023 – Jul 2024</p>
         <ul>
           <li>Designed and taught advanced courses in Creative CS, Statistics with R, and Creative Tech Projects, merging technical skills with artistic expression 🎨💻.</li>
           <li>Applied generative art and procedural storytelling techniques in video game design courses 🎮✨.</li>
           <li>Enhanced curriculum with real-world applications and project-based learning, boosting engagement and problem-solving skills 🔍💡.</li>
         </ul>
       </div>
-    </div>
   </section>
 
   <script src="assets/js/cats.js"></script>
