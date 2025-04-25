@@ -264,92 +264,13 @@ summary {
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
-.fireworks-footer {
-  position: relative;
-  height: 200px;
-  background: linear-gradient(to top, #0b0c10 60%, #1f1f2e 100%);
-  overflow: hidden;
-  width: 100%;
-}
 
-/* Firework Animations */
-.sky {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
 
-.firework {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 4px;
-  height: 4px;
-  background: transparent;
-  animation: shoot 2s infinite;
-  box-shadow:
-    0 0 8px #fdfd96,
-    0 0 12px #f7c5cc,
-    0 0 20px #ffc0cb;
-}
 
-.firework::before {
-  content: "";
-  position: absolute;
-  top: -100px;
-  left: -50px;
-  width: 100px;
-  height: 100px;
-  background: radial-gradient(circle, #fff 10%, transparent 11%);
-  background-size: 10px 10px;
-  opacity: 0;
-  animation: explode 2s infinite;
-}
 
-.firework.delay-1 {
-  animation-delay: 0.5s;
-}
 
-.firework.delay-2 {
-  animation-delay: 1s;
-}
 
-@keyframes shoot {
-  0% {
-    transform: translateY(0) scale(0.5);
-    opacity: 1;
-  }
 
-  50% {
-    transform: translateY(-100px) scale(1.5);
-    opacity: 1;
-  }
-
-  100% {
-    transform: translateY(-100px) scale(0);
-    opacity: 0;
-  }
-}
-
-@keyframes explode {
-
-  0%,
-  30% {
-    opacity: 0;
-    transform: scale(0.2);
-  }
-
-  50% {
-    opacity: 1;
-    transform: scale(1);
-  }
-
-  100% {
-    opacity: 0;
-    transform: scale(1.5);
-  }
-}
 
 /* City silhouette */
 .cityscape {
@@ -360,15 +281,4 @@ summary {
   background: url('https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Silhouettes-PNG/New_York_City_Skyline_Silhouette_PNG_Clip_Art.png?m=1629815299') repeat-x;
   background-size: contain;
   animation: pan 60s linear infinite;
-}
-
-
-@keyframes pan {
-  from {
-    background-position: 0 bottom;
-  }
-
-  to {
-    background-position: 100% bottom;
-  }
 }
