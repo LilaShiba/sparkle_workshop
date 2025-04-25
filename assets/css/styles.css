@@ -64,7 +64,6 @@ header {
 
 /* === Code & Preformatted Text === */
 pre {
-  background-color: #222;
   /* Dark background for code */
   padding: 15px;
   border-radius: 5px;
