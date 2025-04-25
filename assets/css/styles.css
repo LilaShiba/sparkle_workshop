@@ -3,8 +3,8 @@ body {
   margin: 0;
   padding: 20px;
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #333;
+  color: #f4f4f4;
   cursor: none;
   /* Hide default cursor */
 }
@@ -219,4 +219,9 @@ summary {
 
 .glow-hover.hovered {
   box-shadow: 0 0 12px 4px var(--glow-color);
+}
+
+.sparkle-cursor {
+  cursor: url('https://abs.twimg.com/emoji/v2/72x72/2728.png'), auto;
+  /* ✨ emoji PNG */
 }

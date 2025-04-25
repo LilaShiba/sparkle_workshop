@@ -46,7 +46,7 @@
 
   <section class="step emoji-cursor">
     <details id="step2">
-      <summary>🔥 Step 2: Install the Adafruit NeoPixel Library 🌈</summary>
+      <summary class='shimmer-text'>🔥 Step 2: Install the Adafruit NeoPixel Library 🌈</summary>
       <p>1. Open the <strong>Arduino IDE</strong>.</p>
       <p>2. Navigate to <strong>Sketch > Include Library > Manage Libraries</strong>.</p>
       <p>3. Search for "<strong>Adafruit NeoPixel</strong>" and click <strong>Install</strong>.</p>
