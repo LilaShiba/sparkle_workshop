@@ -30,7 +30,11 @@
   <div class="gif-container">
     <img src="https://github.com/LilaShiba/flora_dress/raw/main/assets/videos/iterate.gif" alt="Iteration GIF" style="max-width: 75%; height: auto;">
   </div>
-
+<section class="step">
+<div>
+  <p>Project Sparkle is a creative workshop where students blend coding, design, and wearable tech to build magical, futuristic fashion. No experience needed — just curiosity and imagination! 🌈🎉</p>
+</div>
+</section>
 <script src="{{ site.baseurl }}/assets/js/cats.js"></script>
 <script src="{{ site.baseurl }}/assets/js/mouse.js"></script>
 <script src="{{ site.baseurl }}/assets/js/confetti.js"></script>
