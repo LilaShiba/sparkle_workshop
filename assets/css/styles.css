@@ -276,7 +276,7 @@ summary {
   background-color: black;
   padding: 1rem 2rem;
   color: white;
-  position: sticky;
+  position: initial;
   top: 0;
   z-index: 1000;
 }

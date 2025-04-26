@@ -10,7 +10,6 @@
 
   <!-- Main Header -->
 <header class="navbar">
-  <div class="logo">✨ Lila James</div>
   <nav id="nav-links" class="nav-links">
     <a href="/sparkle_workshop/">Home</a>
     <a href="/sparkle_workshop/about/">About</a>
