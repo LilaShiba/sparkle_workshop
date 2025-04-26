@@ -7,22 +7,23 @@ permalink: /about/
   <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
+
 <header class="navbar">
-  <div class="logo">✨ Lila James</div>
   <nav id="nav-links" class="nav-links">
     <a href="/sparkle_workshop/">Home</a>
     <a href="/sparkle_workshop/about/">About</a>
-    <a href="/sparkle_workshop/projects/">Projects</a>
-    <a href="/sparkle_workshop/contact/">Contact</a>
+    <a href="/sparkle_workshop/lessons/">Lessons</a>
+    <a href="/sparkle_workshop/workshop/">Workshop</a>
   </nav>
   <div class="hamburger" onclick="toggleMenu()">🍔</div>
 </header>
+
+
 <body class='cats'>
   <section class="step">
     <div class="container">
       <div class="header">
    <h1>Lila James <span class="emoji">✨👩‍💻🌙</span></h1>
-
 <p>Hey there! I'm a Technologist, Educator, and Artist with over a decade of international experience. My projects span the space between science and art, as well as machine and human. You can see for yourself on my 🎨 <a href="https://github.com/LilaShiba" target="_blank">Portfolio</a>
 
 <p>My approach to projects is to always blend research with physical application. For example, 🧑‍🏫 <a href="https://github.com/LilaShiba/SND_Agents/blob/main/Lila%20Jame%20Final%20Paper.pdf" target="_blank">my Leading Philosophy & Software Development are informed by a mixture of research and trial</a>, offering insights into emerging technologies, their human connections, and how best to utilize them.</p>
@@ -60,7 +61,7 @@ permalink: /about/
         <h2>💻 Professional Experience</h2>
       </div>
       <div class="step glow-hover">
-        <h3><span class="emoji">🖥️🌙</span>Unqork</h3>
+        <h3>Unqork <span class="emoji">🖥️🌙</span></h3>
         <p>Software Engineer | Apr 2020 – 2023</p>
         <ul>
           <li>Developed and launched fintech applications contributing to over $10M in secured contracts 💰.</li>
