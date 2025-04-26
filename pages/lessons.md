@@ -36,7 +36,7 @@ permalink: /lessons/
   </section>
 
 <div class="gif-container">
-  <img src="https://github.com/LilaShiba/flora_dress/raw/main/assets/videos/iterate.gif" alt="Iteration GIF" style="max-width: 75%; height: auto;" >
+  <img src="https://github.com/LilaShiba/flora_dress/blob/main/assets/videos/example.gif" alt="Iteration GIF" style="width: auto; height: 500;" >
 </div>
 
 
