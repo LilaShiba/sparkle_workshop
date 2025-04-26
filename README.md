@@ -9,19 +9,16 @@
 <body class="cats">
 
   <!-- Main Header -->
-  <header>
-    <h1>🌙 ✨ Project Sparkle ✨ 🌙</h1>
-    <p>Where <strong>Fashion</strong> Meets Technology 🌈✨🎉</p>
-    <div class="navbar">
-      <nav id="nav-links" class="nav-links">
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/projects/">Projects</a>
-        <a href="/contact/">Contact</a>
-      </nav>
-      <div class="hamburger" onclick="toggleMenu()">🍔</div>
-    </div>
-  </header>
+<header class="navbar">
+  <div class="logo">✨ Lila James</div>
+  <nav id="nav-links" class="nav-links">
+    <a href="/sparkle_workshop/">Home</a>
+    <a href="/sparkle_workshop/about/">About</a>
+    <a href="/sparkle_workshop/projects/">Projects</a>
+    <a href="/sparkle_workshop/contact/">Contact</a>
+  </nav>
+  <div class="hamburger" onclick="toggleMenu()">🍔</div>
+</header>
 
   <!-- Gif Container -->
   <div class="gif-container">
