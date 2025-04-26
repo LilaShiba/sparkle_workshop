@@ -1,8 +1,3 @@
----
-layout: default
-title: lessons
-permalink: /lessons/
----
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -10,27 +5,16 @@ permalink: /lessons/
   <title>✨ Project Sparkle ✨</title>
   <link href="assets/css/styles.css" rel="stylesheet" />
 </head>
+<header>
+     <h1>🌙 ✨ Project Sparkle ✨ 🌙</h1>
+     <p>Where <strong>Fashion</strong> Meets Technology🌈✨🎉</p>
+     
+  </header>
 
-<body class="cats">
-
-  <!-- Main Header -->
-<header class="navbar">
-  <div class="logo">✨ Lila James</div>
-  <nav id="nav-links" class="nav-links">
-    <a href="/sparkle_workshop/">Home</a>
-    <a href="/sparkle_workshop/about/">About</a>
-    <a href="/sparkle_workshop/projects/">Projects</a>
-    <a href="/sparkle_workshop/contact/">Contact</a>
-  </nav>
-  <div class="hamburger" onclick="toggleMenu()">🍔</div>
-</header>
-
-  <!-- Gif Container -->
-  <div class="gif-container">
-    <img src="https://github.com/LilaShiba/flora_dress/raw/main/assets/videos/iterate.gif" alt="Iteration GIF" style="max-width: 75%; height: auto;">
-  </div>
-
-  <!-- Sections -->
+<body class='cats'>
+<div class="gif-container">
+  <img src="https://github.com/LilaShiba/flora_dress/raw/main/assets/videos/iterate.gif" alt="Iteration GIF" style="max-width: 75%; height: auto;" >
+</div>
   <section>
     <h2>🌟 What You Need 🌟</h2>
     <p>Before you start, make sure you have the following:</p>
@@ -88,18 +72,18 @@ permalink: /lessons/
 
 Adafruit_NeoPixel strip(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
-void setup() {
-  strip.begin();
-  strip.show();
-}
+    void setup() {
+            strip.begin();
+            strip.show();
+          }
 
-void loop() {
-  for (int i = 0; i &lt; strip.numPixels(); i++) {
-    strip.setPixelColor(i, strip.Color(255, 0, 0)); // Red
-    strip.show();
-    delay(50);
-  }
-}
+          void loop() {
+            for (int i = 0; i &lt; strip.numPixels(); i++) {
+              strip.setPixelColor(i, strip.Color(255, 0, 0)); // Red
+              strip.show();
+              delay(50);
+      }
+    }
       </code></pre>
     </details>
   </section>
@@ -117,30 +101,6 @@ void loop() {
     <details>
       <summary>🎉 Congratulations! 🎉</summary>
       <p>You’ve successfully lit up your <strong>Flora NeoPixel</strong> strip! 🌈✨</p>
-    </details>
-  </section>
-
-  <h2 class="shimmer-text">🦆 Rubber Ducky 🦆</h2>
-  <p>A rubber ducky is a programmer's best friend for figuring out bugs. Explain your code line-by-line to a duck (or friend, cat, etc.) to spot mistakes.</p>
-
-  <section class="step">
-    <details>
-      <summary>🌙 Debugging Alone 🌙</summary>
-      <ul>
-        <li>🔄 Change one thing at a time — and if it doesn’t work, change it back! Keep experiments small and reversible.</li>
-        <li>📝 Take notes as you go — track what you tried so you don't go in circles!</li>
-        <li>🎯 Try the easiest thing first — sometimes it's just a missing semicolon 😅.</li>
-      </ul>
-    </details>
-  </section>
-
-  <section class="step">
-    <details>
-      <summary>🤝 Debug with a Friend 🤝</summary>
-      <ul>
-        <li>🤝 Pair Programming — two minds are better than one! Even just talking through the problem together can spark ideas.</li>
-        <li>🔍 Research like a pro — Google your error messages exactly, add the language/framework (e.g., "Python list index out of range"), and check sites like StackOverflow, GitHub Issues, or official docs first.</li>
-      </ul>
     </details>
   </section>
 
@@ -165,7 +125,7 @@ void loop() {
   </section>
 
   <h2 class="shimmer-text">Commands</h2>
-  <p>Use these commands to change colors, brightness, and LED count. More methods in the <a href="https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use">NeoPixel Uberguide</a>.</p>
+  <p>Use these commands to change colors, brightness, and LED count:</p>
 
   <section class="step">
     <details>
@@ -201,7 +161,8 @@ strip.setBrightness(128);  // 50% brightness
     </details>
   </section>
 
-  <!-- Scripts at the end for better loading -->
+
+  <!-- JS at the end for better performance -->
   <script src="assets/js/cats.js"></script>
   <script src="assets/js/mouse.js"></script>
   <script src="assets/js/confetti.js"></script>
