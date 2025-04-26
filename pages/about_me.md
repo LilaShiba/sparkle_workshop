@@ -18,7 +18,7 @@ permalink: /about/
 </header>
 
 <body class='cats'>
-<div style='text-align:center'>
+<div class='step'>
         <h1>Lila James <span class="emoji">✨👩‍💻🌙</span></h1>
         <p>Hey there! I'm a Technologist, Educator, and Artist with over a decade of international experience. My projects span the space between science and art, as well as machine and human. You can see for yourself on my 🎨 
           <a href="https://github.com/LilaShiba" target="_blank">Portfolio</a>
