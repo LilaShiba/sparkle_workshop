@@ -18,7 +18,9 @@
     <a href="/sparkle_workshop/workshop/">Workshop</a>
   </nav>
   <div class="hamburger" onclick="toggleMenu()">🍔</div>
-
+</header>
+<body class='cats'>
+<header>
   <h1>🌙 ✨ Project Sparkle ✨ 🌙</h1>
   <p>Where <strong>Fashion</strong> Meets Technology 🌈✨🎉</p>
 </header>
