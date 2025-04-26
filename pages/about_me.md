@@ -41,7 +41,6 @@ permalink: /about/
                style="max-width: 75%; height: auto;" />
         </details>
     </div> <!-- end container -->
-  </section>
 
   <section class="step">
     <div class="container">
