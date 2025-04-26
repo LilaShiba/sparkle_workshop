@@ -104,6 +104,27 @@ Adafruit_NeoPixel strip(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
     </details>
   </section>
 
+
+<h2 class="shimmer-text">🦆 Rubber Ducky 🦆</h2>
+<section class="step">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="shimmer-text">Debugging Tips</h2>
+    </div>
+    <div class="content">
+      <ul>
+        <li>🔄 Change one thing at a time — and if it doesn’t work, change it back! Keep experiments small and reversible.</li>
+        <li>📝 Take notes as you go — track what you tried so you don't go in circles!</li>
+        <li>🎯 Try the easiest thing first — sometimes it's just a missing semicolon 😅.</li>
+        <li>🦆 Rubber Ducky Debugging — explain your code line-by-line to a duck (or a friend or your cat) to spot mistakes.</li>
+        <li>🤝 Peer Programming — two minds are better than one! Even just talking through the problem together can spark ideas.</li>
+        <li>🔍 Research like a pro — Google your error messages exactly, add the language or framework (e.g., "Python list index out of range"), and check sites like StackOverflow, GitHub Issues, or official docs first.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
   <section class="step">
     <details>
       <summary>🌈 Next Steps 🌙</summary>
@@ -125,7 +146,7 @@ Adafruit_NeoPixel strip(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
   </section>
 
   <h2 class="shimmer-text">Commands</h2>
-  <p>Use these commands to change colors, brightness, and LED count:</p>
+  <p>Use these commands to change colors, brightness, and LED count. You can also find all the methods in the <a href='https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use'>uberguide</a></p>
 
   <section class="step">
     <details>
