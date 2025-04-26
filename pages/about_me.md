@@ -7,6 +7,8 @@ permalink: /about/
   <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
+
+<body class='cats'>
 <header class="navbar">
   <nav id="nav-links" class="nav-links">
     <a href="/sparkle_workshop/">Home</a>
@@ -17,8 +19,7 @@ permalink: /about/
   <div class="hamburger" onclick="toggleMenu()">🍔</div>
 </header>
 
-<body class='cats'>
-<div class='step'>
+<header>
         <h1>Lila James <span class="emoji">✨👩‍💻🌙</span></h1>
         <p>Hey there! I'm a Technologist, Educator, and Artist with over a decade of international experience. My projects span the space between science and art, as well as machine and human. You can see for yourself on my 🎨 
           <a href="https://github.com/LilaShiba" target="_blank">Portfolio</a>
@@ -40,7 +41,7 @@ permalink: /about/
                alt="Estelle" 
                style="max-width: 75%; height: auto;" />
         </details>
-    </div> <!-- end container -->
+    </header> <!-- end container -->
 
   <section class="step">
     <div class="container">
