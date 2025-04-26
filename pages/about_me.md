@@ -14,9 +14,9 @@ permalink: /about/
       <div class="header">
    <h1>Lila James <span class="emoji">✨👩‍💻🌙</span></h1>
 
-<p>Hey there! I'm a Technologist, Educator, and Artist with over a decade of international experience. My projects span the space between science and art, as well as machine and human. You can see for yourself on my 🎨 <a href="https://github.com/LilaShiba" target="_blank">Portfolio</a>, and feel free to contribute to the ongoing work!</p>
+<p>Hey there! I'm a Technologist, Educator, and Artist with over a decade of international experience. My projects span the space between science and art, as well as machine and human. You can see for yourself on my 🎨 <a href="https://github.com/LilaShiba" target="_blank">Portfolio</a>
 
-<p>My approach to projects is to always blend research with physical application. For example, 🧑‍🏫 <a href="https://github.com/LilaShiba/SND_Agents/blob/main/Lila%20Jame%20Final%20Paper.pdf" target="_blank">my Teaching Philosophy & Software Development is informed by a mixture of research and trial</a>, offering insights into emerging technologies and how best to utilize them. Think of it as embracing AI, not hiding from it.</p>
+<p>My approach to projects is to always blend research with physical application. For example, 🧑‍🏫 <a href="https://github.com/LilaShiba/SND_Agents/blob/main/Lila%20Jame%20Final%20Paper.pdf" target="_blank">my Leading Philosophy & Software Development are informed by a mixture of research and trial</a>, offering insights into emerging technologies, their human connections, and how best to utilize them.</p>
 
 <p>Feel free to 📧 <a href="mailto:lilaresearch@gmail.com">lilaresearch@gmail.com</a> with any questions, requests, or for scheduling and pricing.</p>
 <details style = 'text-align: center' >
@@ -37,9 +37,9 @@ permalink: /about/
         <h2>🎓 Education</h2>
       </div>
       <div class="content">
-        <h3>Georgia Institute of Technology <span class="emoji">🎓🌟</span></h3>
+        <h3>Georgia Institute of Technology <span class="emoji">🎓</span></h3>
         <p>M.Sc. in Computer Science (2024)</p>
-        <h3>Towson University <span class="emoji">📚✨</span></h3>
+        <h3>Towson University <span class="emoji">📚</span></h3>
         <p>B.S. in Sociology (2010)</p>
       </div>
     </div>
@@ -51,7 +51,7 @@ permalink: /about/
         <h2>💻 Professional Experience</h2>
       </div>
       <div class="step glow-hover">
-        <h3>Unqork <span class="emoji">🖥️🌙</span></h3>
+        <h3><span class="emoji">🖥️🌙</span>Unqork</h3>
         <p>Software Engineer | Apr 2020 – 2023</p>
         <ul>
           <li>Developed and launched fintech applications contributing to over $10M in secured contracts 💰.</li>
@@ -77,7 +77,7 @@ permalink: /about/
 
   <section class="step glow-hover">
     <div class="container">
-      <h3>Decoded <span class="emoji">🔮💻</span></h3>
+      <h3><span class="emoji">🔮💻</span>Decoded </h3>
       <p>Product Manager & Technology Consultant | Aug 2018 – Mar 2020</p>
       <ul>
         <li>Streamlined client onboarding processes, reducing setup time by 30% ⏱️.</li>
@@ -88,10 +88,10 @@ permalink: /about/
 
   <section class="section">
     <div class="section-header">
-      <h2>📚 Teaching Experience</h2>
+      <h2>Teaching Experience 📚</h2>
     </div>
     <div class="step glow-hover">
-      <h3>Teach For America <span class="emoji">🌸📚</span></h3>
+      <h3><span class="emoji">🌸📚</span>Teach For America </h3>
       <p>Secondary English Teacher | Jun 2013 – Jun 2016</p>
       <ul>
         <li>Implemented data-driven instruction techniques to address and close learning gaps 📊.</li>
