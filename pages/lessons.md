@@ -14,6 +14,7 @@ permalink: /lessons/
 
 <body class='cats'>
 
+
 <header class="navbar">
   <nav id="nav-links" class="nav-links">
     <a href="/sparkle_workshop/">Home</a>
@@ -23,11 +24,7 @@ permalink: /lessons/
   </nav>
   <div class="hamburger" onclick="toggleMenu()">🍔</div>
 </header>
-
-
-<div class="gif-container">
-  <img src="https://github.com/LilaShiba/flora_dress/raw/main/assets/videos/iterate.gif" alt="Iteration GIF" style="max-width: 75%; height: auto;" >
-</div>
+  
   <section>
     <h2>🌟 What You Need 🌟</h2>
     <p>Before you start, make sure you have the following:</p>
@@ -37,6 +34,11 @@ permalink: /lessons/
       <li><strong>Jumper Wires</strong> 🔌</li>
     </ul>
   </section>
+
+<div class="gif-container">
+  <img src="https://github.com/LilaShiba/flora_dress/raw/main/assets/videos/iterate.gif" alt="Iteration GIF" style="max-width: 75%; height: auto;" >
+</div>
+
 
   <section class="step">
     <details>
@@ -176,9 +178,10 @@ strip.setBrightness(128);  // 50% brightness
 
 
   <!-- JS at the end for better performance -->
-  <script src="assets/js/cats.js"></script>
-  <script src="assets/js/mouse.js"></script>
-  <script src="assets/js/confetti.js"></script>
-  <script src="assets/js/expandEffect.js"></script>
+<script src="{{ site.baseurl }}/assets/js/cats.js"></script>
+<script src="{{ site.baseurl }}/assets/js/mouse.js"></script>
+<script src="{{ site.baseurl }}/assets/js/confetti.js"></script>
+<script src="{{ site.baseurl }}/assets/js/expandEffect.js"></script>
+
 </body>
 </html>

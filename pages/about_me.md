@@ -142,8 +142,9 @@ permalink: /about/
     </div> <!-- end container -->
   </section>
 
-  <script src="assets/js/cats.js"></script>
-  <script src="assets/js/mouse.js"></script>
-  <script src="assets/js/confetti.js"></script>
-  <script src="assets/js/expandEffect.js"></script>
+<script src="{{ site.baseurl }}/assets/js/cats.js"></script>
+<script src="{{ site.baseurl }}/assets/js/mouse.js"></script>
+<script src="{{ site.baseurl }}/assets/js/confetti.js"></script>
+<script src="{{ site.baseurl }}/assets/js/expandEffect.js"></script>
+
 </body>

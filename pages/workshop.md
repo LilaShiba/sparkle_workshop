@@ -24,5 +24,9 @@ permalink: /workshop/
   </nav>
   <div class="hamburger" onclick="toggleMenu()">🍔</div>
 </header>
+<script src="{{ site.baseurl }}/assets/js/cats.js"></script>
+<script src="{{ site.baseurl }}/assets/js/mouse.js"></script>
+<script src="{{ site.baseurl }}/assets/js/confetti.js"></script>
+<script src="{{ site.baseurl }}/assets/js/expandEffect.js"></script>
 
 </body>
