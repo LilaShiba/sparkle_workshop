@@ -24,9 +24,9 @@
   <p>Where <strong>Fashion</strong> Meets Technology 🌈✨🎉</p>
 </header>
 
-<!-- Another Example Gif -->
+<!-- Gif Container -->
 <div class="gif-container">
-  <img src="https://github.com/LilaShiba/flora_dress/blob/main/assets/videos/example.gif?raw=true" style="max-height: 35%; width: auto;">
+  <img src="https://github.com/LilaShiba/flora_dress/raw/main/assets/videos/iterate.gif" alt="Iteration GIF" style="max-width: 75%; height: auto;">
 </div>
 
 <section class="step">
@@ -37,19 +37,17 @@
   </div>
 </section>
 
-<!-- New Section for Workshops -->
-<section class="workshops">
-  <h2>🌟 After-School Workshops 🌟</h2>
-  <p>Join us after school for hands-on sessions! Students meet once a week to dream, design, and create wearable tech magic. ✨ Perfect for building skills throughout the school year!</p>
+<!-- Workshops Section -->
+<section class="step">
+  <h2>🌟 After-School Workshops (2 hrs) 🌟</h2>
+  <p>Join us after school (you pick the day) for hands-on sessions! Students meet once a week to dream, design, and create wearable tech magic. ✨ Perfect for building skills throughout the school year!</p>
 
-  <h2>🌞 Upcoming Summer Workshops 🌞</h2>
+  <h2>🌞 Upcoming Summer Workshops (1 Week or 5 Weeks) 🌞</h2>
   <p>Get ready for a summer full of sparkle! Our summer workshops are longer and dive deeper into fashion technology, including special projects, guest speakers, and showcase events. 🎨👗🛠️</p>
 
-  <h2>All Lesons are Mobile Friendly</h2>
-  <p> Students will always have access to materials, including tutorials, diagrams, videos, and more. Check out the <link href="/sparkle_workshop/lessons/"> first lesson on your phone, tablet, pc, tv, switch, etc!
+  <h2>📱 All Lessons are Mobile Friendly & Yours Forever!</h2>
+  <p>Students will always have access to materials, including tutorials, diagrams, videos, and more. Check out the <a href="/sparkle_workshop/lessons/">first lesson</a> on your phone, tablet, PC, TV, Switch, and more!</p>
 </section>
-
-
 
 <script src="{{ site.baseurl }}/assets/js/cats.js"></script>
 <script src="{{ site.baseurl }}/assets/js/mouse.js"></script>
