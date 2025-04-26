@@ -3,10 +3,6 @@ layout: default
 permalink: /about/
 ---
 
-<head>
-  <link rel="stylesheet" href="../assets/css/styles.css">
-</head>
-
 <header class="navbar">
   <div class="logo">✨ Lila James</div>
   <nav id="nav-links" class="nav-links">
@@ -17,29 +13,29 @@ permalink: /about/
   </nav>
   <div class="hamburger" onclick="toggleMenu()">🍔</div>
 </header>
-<body class='cats'>
+
+<body class="cats">
   <section class="step">
     <div class="container">
       <div class="header">
-   <h1>Lila James <span class="emoji">✨👩‍💻🌙</span></h1>
+        <h1>Lila James <span class="emoji">✨👩‍💻🌙</span></h1>
 
-<p>Hey there! I'm a Technologist, Educator, and Artist with over a decade of international experience. My projects span the space between science and art, as well as machine and human. You can see for yourself on my 🎨 <a href="https://github.com/LilaShiba" target="_blank">Portfolio</a>
+        <p>Hey there! I'm a Technologist, Educator, and Artist with over a decade of international experience. My projects span the space between science and art, as well as machine and human. You can see for yourself on my 🎨 <a href="https://github.com/LilaShiba" target="_blank">Portfolio</a>.</p>
 
-<p>My approach to projects is to always blend research with physical application. For example, 🧑‍🏫 <a href="https://github.com/LilaShiba/SND_Agents/blob/main/Lila%20Jame%20Final%20Paper.pdf" target="_blank">my Leading Philosophy & Software Development are informed by a mixture of research and trial</a>, offering insights into emerging technologies, their human connections, and how best to utilize them.</p>
+        <p>My approach to projects is to always blend research with physical application. For example, 🧑‍🏫 <a href="https://github.com/LilaShiba/SND_Agents/blob/main/Lila%20Jame%20Final%20Paper.pdf" target="_blank">my Leading Philosophy & Software Development are informed by a mixture of research and trial</a>, offering insights into emerging technologies, their human connections, and how best to utilize them.</p>
 
-<p>Feel free to 📧 <a href="mailto:lilaresearch@gmail.com">lilaresearch@gmail.com</a> with any questions, requests, or for scheduling and pricing.</p>
-<details style = 'text-align: center' >
-  <summary>🐶 My Dog 🐶</summary>
-  <p class='shimmer-text'> Say hi to Estelle</p>
-  <img src="../assets/imgs/estelle.jpg" 
-       alt="Estelle" 
-       style="max-width: 75%; height: auto;" />
-</details>
+        <p>Feel free to 📧 <a href="mailto:lilaresearch@gmail.com">lilaresearch@gmail.com</a> with any questions, requests, or for scheduling and pricing.</p>
+
+        <details style="text-align: center;">
+          <summary>🐶 My Dog 🐶</summary>
+          <p class="shimmer-text">Say hi to Estelle</p>
+          <img src="../assets/imgs/estelle.jpg" alt="Estelle" style="max-width: 75%; height: auto;" />
+        </details>
       </div>
     </div>
   </section>
 
-
+  <!-- EDUCATION -->
   <section class="step">
     <div class="container">
       <div class="section-header">
@@ -54,13 +50,14 @@ permalink: /about/
     </div>
   </section>
 
+  <!-- PROFESSIONAL EXPERIENCE -->
   <section class="section">
     <div class="container">
       <div class="section-header">
         <h2>💻 Professional Experience</h2>
       </div>
       <div class="step glow-hover">
-        <h3><span class="emoji">🖥️🌙</span>Unqork</h3>
+        <h3><span class="emoji">🖥️🌙</span> Unqork</h3>
         <p>Software Engineer | Apr 2020 – 2023</p>
         <ul>
           <li>Developed and launched fintech applications contributing to over $10M in secured contracts 💰.</li>
@@ -86,7 +83,7 @@ permalink: /about/
 
   <section class="step glow-hover">
     <div class="container">
-      <h3><span class="emoji">🔮💻</span>Decoded </h3>
+      <h3><span class="emoji">🔮💻</span> Decoded</h3>
       <p>Product Manager & Technology Consultant | Aug 2018 – Mar 2020</p>
       <ul>
         <li>Streamlined client onboarding processes, reducing setup time by 30% ⏱️.</li>
@@ -95,12 +92,13 @@ permalink: /about/
     </div>
   </section>
 
+  <!-- TEACHING EXPERIENCE -->
   <section class="section">
     <div class="section-header">
-      <h2>Teaching Experience 📚</h2>
+      <h2>📚 Teaching Experience</h2>
     </div>
     <div class="step glow-hover">
-      <h3><span class="emoji">🌸📚</span>Teach For America </h3>
+      <h3><span class="emoji">🌸📚</span> Teach For America</h3>
       <p>Secondary English Teacher | Jun 2013 – Jun 2016</p>
       <ul>
         <li>Implemented data-driven instruction techniques to address and close learning gaps 📊.</li>
@@ -118,18 +116,28 @@ permalink: /about/
   </section>
 
   <section class="step glow-hover">
-        <h3>💻 Riverdale Country School</h3>
-        <p>Computer Science Teacher | Aug 2023 – Jul 2024</p>
-        <ul>
-          <li>Designed and taught advanced courses in Creative CS, Statistics with R, and Creative Tech Projects, merging technical skills with artistic expression 🎨💻.</li>
-          <li>Applied generative art and procedural storytelling techniques in video game design courses 🎮✨.</li>
-          <li>Enhanced curriculum with real-world applications and project-based learning, boosting engagement and problem-solving skills 🔍💡.</li>
-        </ul>
+    <div class="container">
+      <h3>💻 Riverdale Country School</h3>
+      <p>Computer Science Teacher | Aug 2023 – Jul 2024</p>
+      <ul>
+        <li>Designed and taught advanced courses in Creative CS, Statistics with R, and Creative Tech Projects, merging technical skills with artistic expression 🎨💻.</li>
+        <li>Applied generative art and procedural storytelling techniques in video game design courses 🎮✨.</li>
+        <li>Enhanced curriculum with real-world applications and project-based learning, boosting engagement and problem-solving skills 🔍💡.</li>
+      </ul>
+    </div>
   </section>
 
+  <!-- SCRIPTS -->
+  <script src="../assets/js/cats.js"></script>
+  <script src="../assets/js/mouse.js"></script>
+  <script src="../assets/js/confetti.js"></script>
+  <script src="../assets/js/expandEffect.js"></script>
 
-  <script src="assets/js/cats.js"></script>
-  <script src="assets/js/mouse.js"></script>
-  <script src="assets/js/confetti.js"></script>
-  <script src="assets/js/expandEffect.js"></script>
+  <!-- Hamburger toggle script -->
+  <script>
+    function toggleMenu() {
+      var nav = document.getElementById("nav-links");
+      nav.classList.toggle("show");
+    }
+  </script>
 </body>
