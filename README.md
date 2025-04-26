@@ -37,17 +37,7 @@
   </div>
 </section>
 
-<!-- Workshops Section -->
-<section class="step">
-  <h2>🌟 After-School Workshops (2 hrs) 🌟</h2>
-  <p>Join us after school (you pick the day) for hands-on sessions! Students meet once a week to dream, design, and create wearable tech magic. ✨ Perfect for building skills throughout the school year!</p>
 
-  <h2>🌞 Upcoming Summer Workshops (1 Week or 5 Weeks) 🌞</h2>
-  <p>Get ready for a summer full of sparkle! Our summer workshops are longer and dive deeper into fashion technology, including special projects, guest speakers, and showcase events. 🎨👗🛠️</p>
-
-  <h2>📱 All Lessons are Mobile Friendly & Yours Forever!</h2>
-  <p>Students will always have access to materials, including tutorials, diagrams, videos, and more. Check out the <a href="/sparkle_workshop/lessons/">first lesson</a> on your phone, tablet, PC, TV, Switch, and more!</p>
-</section>
 
 <script src="{{ site.baseurl }}/assets/js/cats.js"></script>
 <script src="{{ site.baseurl }}/assets/js/mouse.js"></script>

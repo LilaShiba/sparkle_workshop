@@ -21,12 +21,10 @@ permalink: /about/
 
   <section class="step">
     <div class="container">
-      <div class="header">
         <h1>Lila James <span class="emoji">✨👩‍💻🌙</span></h1>
         <p>Hey there! I'm a Technologist, Educator, and Artist with over a decade of international experience. My projects span the space between science and art, as well as machine and human. You can see for yourself on my 🎨 
           <a href="https://github.com/LilaShiba" target="_blank">Portfolio</a>
         </p>
-
         <p>My approach to projects is to always blend research with physical application. For example, 🧑‍🏫 
           <a href="https://github.com/LilaShiba/SND_Agents/blob/main/Lila%20Jame%20Final%20Paper.pdf" target="_blank">
             my Leading Philosophy & Software Development are informed by a mixture of research and trial
@@ -46,7 +44,6 @@ permalink: /about/
                alt="Estelle" 
                style="max-width: 75%; height: auto;" />
         </details>
-      </div> <!-- end header -->
     </div> <!-- end container -->
   </section>
 
