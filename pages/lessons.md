@@ -1,3 +1,8 @@
+---
+layout: default
+title: lesson 0
+permalink: /lessons/
+---
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
