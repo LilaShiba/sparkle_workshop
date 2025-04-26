@@ -1,7 +1,7 @@
 ---
 layout: default
-title: workshop
-permalink: /workshop/
+title: contact
+permalink: /contact/
 ---
 <html lang="en">
 <head>
