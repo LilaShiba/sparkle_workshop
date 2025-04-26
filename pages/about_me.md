@@ -7,7 +7,16 @@ permalink: /about/
   <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
-
+<header class="navbar">
+  <div class="logo">✨ Lila James</div>
+  <nav id="nav-links" class="nav-links">
+    <a href="/">Home</a>
+    <a href="/about/">About</a>
+    <a href="/projects/">Projects</a>
+    <a href="/contact/">Contact</a>
+  </nav>
+  <div class="hamburger" onclick="toggleMenu()">🍔</div>
+</header>
 <body class='cats'>
   <section class="step">
     <div class="container">

@@ -38,3 +38,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 });
+
+function toggleMenu() {
+    var nav = document.getElementById("nav-links");
+    nav.classList.toggle("show");
+}

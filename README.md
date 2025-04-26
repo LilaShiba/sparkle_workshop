@@ -10,6 +10,16 @@
      <p>Where <strong>Fashion</strong> Meets Technology🌈✨🎉</p>
      
   </header>
+<header class="navbar">
+  <div class="logo">✨ Lila James</div>
+  <nav id="nav-links" class="nav-links">
+    <a href="/">Home</a>
+    <a href="/about/">About</a>
+    <a href="/projects/">Projects</a>
+    <a href="/contact/">Contact</a>
+  </nav>
+  <div class="hamburger" onclick="toggleMenu()">🍔</div>
+</header>
 
 <body class='cats'>
 <div class="gif-container">
