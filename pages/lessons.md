@@ -13,20 +13,18 @@ permalink: /lessons/
 
 
 <body class='cats'>
-  <!-- Main Header -->
+
 <header class="navbar">
-  <div class="logo">✨ Lila James</div>
   <nav id="nav-links" class="nav-links">
     <a href="/sparkle_workshop/">Home</a>
     <a href="/sparkle_workshop/about/">About</a>
-    <a href="/sparkle_workshop/lessons/">Projects</a>
-    <a href="/sparkle_workshop/contact/">Contact</a>
+    <a href="/sparkle_workshop/lessons/">Lessons</a>
+    <a href="/sparkle_workshop/workshop/">Workshop</a>
   </nav>
   <div class="hamburger" onclick="toggleMenu()">🍔</div>
-     <h1>🌙 ✨ Project Sparkle ✨ 🌙</h1>
-     <p>Where <strong>Fashion</strong> Meets Technology🌈✨🎉</p>
-     
 </header>
+
+
 <div class="gif-container">
   <img src="https://github.com/LilaShiba/flora_dress/raw/main/assets/videos/iterate.gif" alt="Iteration GIF" style="max-width: 75%; height: auto;" >
 </div>

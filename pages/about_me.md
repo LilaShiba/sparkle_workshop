@@ -146,5 +146,4 @@ permalink: /about/
   <script src="assets/js/mouse.js"></script>
   <script src="assets/js/confetti.js"></script>
   <script src="assets/js/expandEffect.js"></script>
-
 </body>
