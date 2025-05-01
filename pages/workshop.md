@@ -4,12 +4,6 @@ title: workshop
 permalink: /workshop/
 ---
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>✨ Project Sparkle ✨</title>
-  <link href="{{ '/assets/css/styles.css' | relative_url }}" rel="stylesheet" />
-</head>
 
 <body class="cats">
 
@@ -24,6 +18,12 @@ permalink: /workshop/
   </nav>
   <div class="hamburger" onclick="toggleMenu()">🍔</div>
 </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>✨ Project Sparkle ✨</title>
+  <link href="{{ '/assets/css/styles.css' | relative_url }}" rel="stylesheet" />
+</head>
 
 <section class="step" style="margin-top: 3em; max-width: 800px; margin-left: auto; margin-right: auto; padding: 2em; background: #fff8fc; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); font-family: 'Helvetica Neue', sans-serif;">
 
