@@ -12,26 +12,18 @@ permalink: /workshop/
 </head>
 
 <body class="cats">
-
+style="position:relative; z-index:10"
   <!-- Main Header -->
-<header class="navbar">
-  <!-- The hidden checkbox for toggling the menu -->
-  <input type="checkbox" id="menu-toggle" class="menu-toggle">
-  
-  <!-- The hamburger icon that activates the menu when clicked -->
-  <label for="menu-toggle" class="hamburger">🍔</label>
-
-  <!-- Navigation links that appear when the checkbox is checked -->
+<header class="navbar" style="position:relative; z-index:10">
   <nav id="nav-links" class="nav-links">
     <a href="/sparkle_workshop/">Home</a>
     <a href="/sparkle_workshop/about/">About</a>
     <a href="/sparkle_workshop/lessons/">Lessons</a>
     <a href="/sparkle_workshop/contact/">Contact</a>
   </nav>
-    <div class="hamburger" onclick="toggleMenu()">🍔</div>
+  <div class="hamburger" onclick="toggleMenu()">🍔</div>
 </header>
 
-<section>
 <section class="step" style="margin-top: 3em; max-width: 800px; margin-left: auto; margin-right: auto; padding: 2em; background: #fff8fc; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); font-family: 'Helvetica Neue', sans-serif;">
 
   <h2 style="text-align: center; font-size: 2em; color: #6a1b9a; margin-bottom: 0.5em;">🏡 Host a Project Sparkle Workshop at Home</h2>
@@ -74,7 +66,7 @@ permalink: /workshop/
     </a>
   </p>
 </section>
-</section>
+
 
 <script src="{{ site.baseurl }}/assets/js/cats.js"></script>
 <script src="{{ site.baseurl }}/assets/js/mouse.js"></script>
