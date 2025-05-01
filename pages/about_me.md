@@ -1,53 +1,151 @@
-<section class="step" style="margin-top: 3em; max-width: 800px; margin-left: auto; margin-right: auto; padding: 2em; background: #fff8fc; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); font-family: 'Helvetica Neue', sans-serif;">
+---
+layout: default
+permalink: /about/
+---
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>✨ Project Sparkle ✨</title>
+  <link href="{{ '/assets/css/styles.css' | relative_url }}" rel="stylesheet" />
+</head>
 
-  <h2 style="text-align: center; font-size: 2em; color: #6a1b9a; margin-bottom: 0.5em;">🏡 Host a Project Sparkle Workshop at Home</h2>
+<body class="cats">
 
-  <p style="text-align: center; font-size: 1.1em; color: #444; max-width: 620px; margin: 0 auto 1.5em;">
-    Bring the magic of Project Sparkle right to your home. These immersive, high-touch creative tech + fashion workshops are perfect for birthdays, after-school enrichment, summer adventures, or weekend inspiration.
-  </p>
+  <!-- Main Header -->
+<header class="navbar">
+  <div class="logo">✨ Lila James</div>
+  <nav id="nav-links" class="nav-links">
+    <a href="/sparkle_workshop/">Home</a>
+    <a href="/sparkle_workshop/about/">About</a>
+    <a href="/sparkle_workshop/lessons/">Lessons</a>
+    <a href="/sparkle_workshop/contact/">Contact</a>
+  </nav>
+  <div class="hamburger" onclick="toggleMenu()">🍔</div>
+</header>
 
-  <ul style="list-style: none; padding: 0; font-size: 1em; color: #333; line-height: 1.6;">
-    <li><strong>👥 Group Size:</strong> 1 to 7 students</li>
-    <li><strong>⏱ Session Length:</strong> 2 hours</li>
-    <li><strong>🗓 Flexible Scheduling:</strong> Weekday afternoons or weekends</li>
-    <li><strong>💎 Premium Pricing:</strong>
-      <ul style="margin-top: 0.5em; margin-bottom: 0.5em; padding-left: 1.5em;">
-        <li>$250 for 1–2 students</li>
-        <li>$350 for 3–4 students</li>
-        <li>$450 for 5–7 students</li>
+<header>
+        <h1>Lila James <span class="emoji">✨👩‍💻🌙</span></h1>
+        <p>Hey there! I'm a Technologist, Educator, and Artist with over a decade of international experience. My projects span the space between science and art, as well as machine and human. You can see for yourself on my 🎨 
+          <a href="https://github.com/LilaShiba" target="_blank">Portfolio</a>
+        </p>
+        <p>My approach to projects is to always blend research with physical application. For example, 🧑‍🏫 
+          <a href="https://github.com/LilaShiba/SND_Agents/blob/main/Lila%20Jame%20Final%20Paper.pdf" target="_blank">
+            my Leading Philosophy & Software Development are informed by a mixture of research and trial
+          </a>, 
+          offering insights into emerging technologies, their human connections, and how best to utilize them.
+        </p>
+        <p>Feel free to 📧 
+          <a href="mailto:lilaresearch@gmail.com">lilaresearch@gmail.com</a> 
+          with any questions, requests, or for scheduling and pricing.
+        </p>
+        <details style='text-align: center'>
+          <summary>🐶 My Dog 🐶</summary>
+          <p class='shimmer-text'> Say hi to Estelle</p>
+          <img src="../assets/imgs/estelle.jpg" 
+               alt="Estelle" 
+               style="max-width: 75%; height: auto;" />
+        </details>
+    </header> <!-- end container -->
+
+  <section class="step">
+    <div class="container">
+      <div class="section-header">
+        <h2>🎓 Education</h2>
+      </div>
+      <div class="content">
+        <h3>Georgia Institute of Technology <span class="emoji">🎓</span></h3>
+        <p>M.Sc. in Computer Science (2024)</p>
+        <h3>Towson University <span class="emoji">📚</span></h3>
+        <p>B.S. in Sociology (2010)</p>
+      </div> <!-- end content -->
+    </div> <!-- end container -->
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>💻 Professional Experience</h2>
+      </div>
+      <div class="step glow-hover">
+        <h3>Unqork <span class="emoji">🖥️🌙</span></h3>
+        <p>Software Engineer | Apr 2020 – 2023</p>
+        <ul>
+          <li>Developed and launched fintech applications contributing to over $10M in secured contracts 💰.</li>
+          <li>Engineered proprietary data frameworks to optimize API performance and scalability 📈.</li>
+          <li>Built custom tooling for JavaScript and database interoperability, increasing operational efficiency by 25% 🔧.</li>
+          <li> 🩸 Left to battle blood cancer 🩸 </li>
+        </ul>
+      </div> <!-- end step glow-hover -->
+    </div> <!-- end container -->
+  </section>
+
+  <section class="step glow-hover">
+    <div class="container">
+      <h3>🔬 Graduate Research Experience</h3>
+      <p>Design & Intelligence Lab at Georgia Institute of Technology <span class="emoji">🧑‍💻✨</span></p>
+      <p>Graduate Researcher | Dec 2023 – Jun 2024</p>
+      <ul>
+        <li>Deployed custom LLM-based chat agents using NLP models across three MOOCs, enhancing user engagement 💬.</li>
+        <li>Optimized data pipelines, resulting in improved model performance and overall user experience 🚀.</li>
+        <li>Collaborated in agile development cycles, contributing to code reviews and Git workflows 🔄.</li>
+        <li> Left after graduation</li>
       </ul>
-    </li>
-    <li><strong>📦 All materials & wearable tech provided</strong> — tailored to your child’s interests. Just bring your curiosity!</li>
-  </ul>
+    </div> <!-- end container -->
+  </section>
 
-  <p style="margin-top: 1em; font-size: 1em; color: #555;">
-    Each session is personalized and led by a seasoned engineer, artist, and educator. I travel throughout NYC and nearby areas. A single workshop teaches students how to sew a circuit, learn programming basics, and includes guided online enrichment. Multi-session packages are available for larger projects.
-  </p>
+  <section class="step glow-hover">
+    <div class="container">
+      <h3><span class="emoji">🔮💻</span>Decoded</h3>
+      <p>Product Manager & Technology Consultant | Aug 2018 – Mar 2020</p>
+      <ul>
+        <li>Streamlined client onboarding processes, reducing setup time by 30% ⏱️.</li>
+        <li>Maintained a Net Promoter Score (NPS) of over 80% for all clients ⭐.</li>
+        <li>Terminated due to Covid-19</li>
+      </ul>
+    </div> <!-- end container -->
+  </section>
 
-  <hr style="margin: 2.5em 0; border: none; border-top: 1px solid #eee;">
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Teaching Experience 📚</h2>
+      </div>
+      <div class="step glow-hover">
+        <h3><span class="emoji">🌸📚</span>Teach For America</h3>
+        <p>Secondary English Teacher | Jun 2013 – Jun 2016</p>
+        <ul>
+          <li>Implemented data-driven instruction techniques to address and close learning gaps 📊.</li>
+          <li>Created engaging lesson plans to enhance critical thinking and communication skills 📝.</li>
+          <li>Left at end of Americorps service term</li>
+        </ul>
+      </div> <!-- end step glow-hover -->
+      <div class="step glow-hover">
+        <h3>Dwight School <span class="emoji">💻✨</span></h3>
+        <p>IB Computer Science Teacher | Aug 2016 – Jul 2018</p>
+        <ul>
+          <li>Developed Python and Java curriculum, increasing class enrollment by 300% 📈.</li>
+          <li>Applied project-based learning to strengthen algorithm design and problem-solving skills 💡.</li>
+        </ul>
+      </div> <!-- end step glow-hover -->
+    </div> <!-- end container -->
+  </section>
 
-  <h3 style="text-align: center; font-size: 1.5em; color: #6a1b9a;">✨ Book Your Workshop</h3>
-  <p style="text-align: center; font-size: 1em; color: #666;">
-    Fill out the form below and I’ll be in touch shortly to personalize your Sparkle session!
-  </p>
+  <section class="step glow-hover">
+    <div class="container">
+      <h3>💻 Riverdale Country School</h3>
+      <p>Computer Science Teacher | Aug 2023 – Jul 2024</p>
+      <ul>
+        <li>Designed and taught advanced courses in Creative CS, Statistics with R, and Creative Tech Projects, merging technical skills with artistic expression 🎨💻.</li>
+        <li>Applied generative art and procedural storytelling techniques in video game design courses 🎮✨.</li>
+        <li>Enhanced curriculum with real-world applications and project-based learning, boosting engagement and problem-solving skills 🔍💡.</li>
+      </ul>
+    </div> <!-- end container -->
+  </section>
 
-  <form action="mailto:lilaresearch@gmail.com" method="POST" enctype="text/plain" style="margin-top: 2em;">
-    <label for="name" style="display: block; margin-bottom: 0.5em; font-weight: bold;">Name</label>
-    <input type="text" name="Name" id="name" required style="width: 100%; padding: 0.6em; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 1.2em;">
+<script src="{{ site.baseurl }}/assets/js/cats.js"></script>
+<script src="{{ site.baseurl }}/assets/js/mouse.js"></script>
+<script src="{{ site.baseurl }}/assets/js/confetti.js"></script>
+<script src="{{ site.baseurl }}/assets/js/expandEffect.js"></script>
 
-    <label for="email" style="display: block; margin-bottom: 0.5em; font-weight: bold;">Email</label>
-    <input type="email" name="Email" id="email" required style="width: 100%; padding: 0.6em; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 1.2em;">
-
-    <label for="subject" style="display: block; margin-bottom: 0.5em; font-weight: bold;">Subject</label>
-    <input type="text" name="Subject" id="subject" required style="width: 100%; padding: 0.6em; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 1.2em;">
-
-    <label for="message" style="display: block; margin-bottom: 0.5em; font-weight: bold;">Message</label>
-    <textarea name="Message" id="message" rows="6" required style="width: 100%; padding: 0.6em; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 2em;"></textarea>
-
-    <div style="text-align: center;">
-      <button type="submit" style="background: linear-gradient(135deg, #00bcd4, #8e24aa); color: white; border: none; padding: 0.8em 1.8em; border-radius: 12px; font-weight: bold; font-size: 1.1em; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: transform 0.2s;">
-        ✨ Send Workshop Request ✨
-      </button>
-    </div>
-  </form>
-</section>
+</body>

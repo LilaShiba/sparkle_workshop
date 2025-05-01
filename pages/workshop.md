@@ -30,7 +30,7 @@ permalink: /workshop/
   <h2 style="text-align: center; font-size: 2em; color: #6a1b9a; margin-bottom: 0.5em;">🏡 Host a Project Sparkle Workshop at Home</h2>
 
   <p style="text-align: center; font-size: 1.1em; color: #444; max-width: 620px; margin: 0 auto 1.5em;">
-    Bring the magic of Project Sparkle right to your home. These immersive, high-touch creative tech + fashion workshops are perfect for birthdays, after-school enrichment, summer adventures, or weekend inspiration.
+    Bring the magic of Project Sparkle right to your home.
   </p>
 
   <ul style="list-style: none; padding: 0; font-size: 1em; color: #333; line-height: 1.6;">
@@ -41,7 +41,7 @@ permalink: /workshop/
       <ul style="margin-top: 0.5em; margin-bottom: 0.5em; padding-left: 1.5em;">
         <li>$250 for 1–2 students</li>
         <li>$350 for 3–4 students</li>
-        <li>$450 for 5–7 students</li>
+        <li>$550 for 5-7 students</li>
       </ul>
     </li>
     <li><strong>📦 All materials & wearable tech provided</strong> — tailored to your child’s interests. Just bring your curiosity!</li>
