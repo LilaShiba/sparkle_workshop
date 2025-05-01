@@ -25,36 +25,54 @@ permalink: /workshop/
   <div class="hamburger" onclick="toggleMenu()">🍔</div>
 </header>
 
-<section class="step" style="margin-top: 3em;">
-  <h2 style="text-align: center;">🏡 Host a Project Sparkle Workshop at Home</h2>
-  <p>
-    Bring the magic of Project Sparkle right to your home. I offer immersive, high-touch workshops in creative tech and fashion for small groups — perfect for birthdays, after-school enrichment, summertime activities, or weekend inspiration.
+<section class="step" style="margin-top: 3em; max-width: 800px; margin-left: auto; margin-right: auto; padding: 2em; background: #fff8fc; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); font-family: 'Helvetica Neue', sans-serif;">
+
+  <h2 style="text-align: center; font-size: 2em; color: #6a1b9a; margin-bottom: 0.5em;">🏡 Host a Project Sparkle Workshop at Home</h2>
+
+  <p style="text-align: center; font-size: 1.1em; color: #444; max-width: 620px; margin: 0 auto 1.5em;">
+    Bring the magic of Project Sparkle right to your home. These immersive, high-touch creative tech + fashion workshops are perfect for birthdays, after-school enrichment, summer adventures, or weekend inspiration.
   </p>
 
-  <ul>
-    <li><strong>Group Size:</strong> 1 to 7 students</li>
-    <li><strong>Session Length:</strong> 2 hours</li>
-    <li><strong>Flexible Scheduling:</strong> Weekday afternoons or weekends</li>
-    <li><strong>Premium Pricing:</strong>
-      <ul>
+  <ul style="list-style: none; padding: 0; font-size: 1em; color: #333; line-height: 1.6;">
+    <li><strong>👥 Group Size:</strong> 1 to 7 students</li>
+    <li><strong>⏱ Session Length:</strong> 2 hours</li>
+    <li><strong>🗓 Flexible Scheduling:</strong> Weekday afternoons or weekends</li>
+    <li><strong>💎 Premium Pricing:</strong>
+      <ul style="margin-top: 0.5em; margin-bottom: 0.5em; padding-left: 1.5em;">
         <li>$250 for 1–2 students</li>
         <li>$350 for 3–4 students</li>
         <li>$450 for 5–7 students</li>
       </ul>
     </li>
-    <li><strong>All materials and wearable tech:</strong> TBD based on project idea. Just bring your curiosity!</li>
+    <li><strong>📦 All materials & wearable tech provided</strong> — tailored to your child’s interests. Just bring your curiosity!</li>
   </ul>
 
-  <p>
-    Each session is personalized to your learners’ interests and includes top-tier instruction from a seasoned engineer, artist, and educator. I travel throughout NYC and nearby areas. A single workshop will teach students how to sew a circuit, provide online enrichment materials, and introduce the basics of programming. Multi-session packages are also available for larger projects.
+  <p style="margin-top: 1em; font-size: 1em; color: #555;">
+    Each session is personalized and led by a seasoned engineer, artist, and educator. I travel throughout NYC and nearby areas. A single workshop teaches students how to sew a circuit, learn programming basics, and includes guided online enrichment. Multi-session packages are available for larger projects.
   </p>
 
-  <p style="text-align: center; margin-top: 1.5em;">
-    <a href="mailto:lilaresearch@gmail.com?subject=Project%20Sparkle%20Workshop%20Inquiry&body=Hi%20Lila%2C%0AI%27m%20interested%20in%20booking%20a%20Project%20Sparkle%20workshop%20at%20home.%20Here%20are%20some%20details%3A%0A%0A-%20Preferred%20date(s)%3A%0A-%20Number%20of%20students%3A%0A-%20Location%3A%0A-%20Any%20special%20interests%20or%20project%20ideas%3A%0A%0AThanks%21"
-       style="background: linear-gradient(135deg, #00bcd4, #673ab7); color: white; padding: 0.75em 1.5em; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease-in-out;">
-      ✨ Book a Home Workshop ✨
-    </a>
+  <hr style="margin: 2.5em 0; border: none; border-top: 1px solid #eee;">
+
+  <h3 style="text-align: center; font-size: 1.5em; color: #6a1b9a;">✨ Book Your Workshop</h3>
+  <p style="text-align: center; font-size: 1em; color: #666;">
+    Fill out the form below and I’ll be in touch shortly to personalize your Sparkle session!
   </p>
+
+  <form action="mailto:lilaresearch@gmail.com" method="POST" enctype="text/plain" style="margin-top: 2em;">
+    <label for="name" style="display: block; margin-bottom: 0.5em; font-weight: bold;">Name</label>
+    <input type="text" name="Name" id="name" required style="width: 100%; padding: 0.6em; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 1.2em;">
+    <label for="email" style="display: block; margin-bottom: 0.5em; font-weight: bold;">Email</label>
+    <input type="email" name="Email" id="email" required style="width: 100%; padding: 0.6em; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 1.2em;">
+    <label for="subject" style="display: block; margin-bottom: 0.5em; font-weight: bold;">Subject</label>
+    <input type="text" name="Subject" id="subject" required style="width: 100%; padding: 0.6em; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 1.2em;">
+    <label for="message" style="display: block; margin-bottom: 0.5em; font-weight: bold;">Message</label>
+    <textarea name="Message" id="message" rows="6" required style="width: 100%; padding: 0.6em; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 2em;"></textarea>
+    <div style="text-align: center;">
+      <button type="submit" style="background: linear-gradient(135deg, #00bcd4, #8e24aa); color: white; border: none; padding: 0.8em 1.8em; border-radius: 12px; font-weight: bold; font-size: 1.1em; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: transform 0.2s;">
+        ✨ Send Workshop Request ✨
+      </button>
+    </div>
+  </form>
 </section>
 
 
