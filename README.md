@@ -31,9 +31,22 @@
 
 <section class="step">
   <div>
-    <p>Project Sparkle is a creative workshop where students blend coding, design, and wearable tech to build magical, futuristic fashion. No experience needed — just curiosity and imagination! 🌈🎉</p>
+<p>Project Sparkle is a creative workshop where students blend coding, design, and wearable tech to build magical, futuristic fashion. No experience needed — just curiosity and imagination! 🌈🎉</p>
 
-    <p>Together, students learn sewing, programming, and how to turn an idea into reality. Examples include dresses, hats, bags, shoes, bell-bottoms, and more.</p>
+<p>Together, students learn sewing, programming, and — most importantly — how to turn an idea into reality with friends! I combine over 15 years of experience as a middle and high school teacher, engineer, and artist to create materials and lessons grounded in 21st-century skills.</p>
+
+<p>
+    Feel free to ask more about about logistics, schedule a lesson at home, or simply see if we are a good fit. Check out the first <a href="/sparkle_workshop/lessons/">lesson</a> for free — and feel free to reach out with any questions!
+</p>
+
+<p style="text-align: center; margin-top: 1.5em;">
+    <a href="/sparkle_workshop/workshop/" style="background: linear-gradient(135deg, #ff69b4, #8a2be2); color: white; padding: 0.75em 1.5em; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease-in-out;">
+        ✨ Explore the Workshop ✨
+    </a>
+</p>
+
+</p>
+
   </div>
 </section>
 
