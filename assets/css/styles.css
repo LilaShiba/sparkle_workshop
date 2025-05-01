@@ -8,7 +8,7 @@ body {
   color: #fff;
   /* White text */
   /* Hide default cursor */
-  cursor: 🐈
+  cursor: 🐈;
 }
 
 header.site-header {
@@ -29,14 +29,12 @@ h1 {
 
 h2 {
   color: #fff;
-  /* White text */
   border-bottom: 2px solid #3498db;
   padding-bottom: 5px;
 }
 
 h3 {
   color: #fff;
-  /* White text */
   font-weight: normal;
 }
 
@@ -54,7 +52,6 @@ header {
 .step {
   position: relative;
   background-color: #333;
-  /* Dark background for steps */
   border-radius: 10px;
   padding: 20px;
   margin: 20px 0;
@@ -65,23 +62,19 @@ header {
   margin-top: 0;
   font-weight: bold;
   color: #3498db;
-  /* Blue color for step headers */
 }
 
 /* === Code & Preformatted Text === */
 pre {
-  /* Dark background for code */
   padding: 15px;
   border-radius: 5px;
   overflow-x: auto;
   max-width: 100%;
-  /* Light color for code text */
   font-size: 0.95em;
 }
 
 code {
   color: #e73ca5;
-  /* Red for code highlights */
 }
 
 /* === Buttons === */

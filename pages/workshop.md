@@ -15,13 +15,19 @@ permalink: /workshop/
 
   <!-- Main Header -->
 <header class="navbar">
+  <!-- The hidden checkbox for toggling the menu -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  
+  <!-- The hamburger icon that activates the menu when clicked -->
+  <label for="menu-toggle" class="hamburger">🍔</label>
+
+  <!-- Navigation links that appear when the checkbox is checked -->
   <nav id="nav-links" class="nav-links">
     <a href="/sparkle_workshop/">Home</a>
     <a href="/sparkle_workshop/about/">About</a>
     <a href="/sparkle_workshop/lessons/">Lessons</a>
     <a href="/sparkle_workshop/contact/">Contact</a>
   </nav>
-  <div class="hamburger" onclick="toggleMenu()">🍔</div>
 </header>
 
 <section>
