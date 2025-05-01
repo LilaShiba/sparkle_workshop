@@ -28,6 +28,7 @@ permalink: /workshop/
     <a href="/sparkle_workshop/lessons/">Lessons</a>
     <a href="/sparkle_workshop/contact/">Contact</a>
   </nav>
+    <div class="hamburger" onclick="toggleMenu()">🍔</div>
 </header>
 
 <section>
