@@ -58,21 +58,12 @@ permalink: /workshop/
     Fill out the form below and I’ll be in touch shortly to personalize your Sparkle session!
   </p>
 
-  <form action="mailto:lilaresearch@gmail.com" method="POST" enctype="text/plain" style="margin-top: 2em;">
-    <label for="name" style="display: block; margin-bottom: 0.5em; font-weight: bold;">Name</label>
-    <input type="text" name="Name" id="name" required style="width: 100%; padding: 0.6em; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 1.2em;">
-    <label for="email" style="display: block; margin-bottom: 0.5em; font-weight: bold;">Email</label>
-    <input type="email" name="Email" id="email" required style="width: 100%; padding: 0.6em; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 1.2em;">
-    <label for="subject" style="display: block; margin-bottom: 0.5em; font-weight: bold;">Subject</label>
-    <input type="text" name="Subject" id="subject" required style="width: 100%; padding: 0.6em; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 1.2em;">
-    <label for="message" style="display: block; margin-bottom: 0.5em; font-weight: bold;">Message</label>
-    <textarea name="Message" id="message" rows="6" required style="width: 100%; padding: 0.6em; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 2em;"></textarea>
-    <div style="text-align: center;">
-      <button type="submit" style="background: linear-gradient(135deg, #00bcd4, #8e24aa); color: white; border: none; padding: 0.8em 1.8em; border-radius: 12px; font-weight: bold; font-size: 1.1em; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: transform 0.2s;">
-        ✨ Send Workshop Request ✨
-      </button>
-    </div>
-  </form>
+  <p style="text-align: center; margin-top: 1.5em;">
+    <a href="mailto:lilaresearch@gmail.com?subject=Project%20Sparkle%20Workshop%20Inquiry&body=Hi%20Lila%2C%0AI%27m%20interested%20in%20booking%20a%20Project%20Sparkle%20workshop%20at%20home.%20Here%20are%20some%20details%3A%0A%0A-%20Preferred%20date(s)%3A%0A-%20Number%20of%20students%3A%0A-%20Location%3A%0A-%20Any%20special%20interests%20or%20project%20ideas%3A%0A%0AThanks%21"
+       style="background: linear-gradient(135deg, #00bcd4, #673ab7); color: white; padding: 0.75em 1.5em; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease-in-out;">
+      ✨ Book a Home Workshop ✨
+    </a>
+  </p>
 </section>
 
 

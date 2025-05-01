@@ -44,9 +44,6 @@
         ✨ Explore the Workshop ✨
     </a>
 </p>
-
-</p>
-
   </div>
 </section>
 
