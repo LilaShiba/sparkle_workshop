@@ -4,12 +4,17 @@ title: workshop
 permalink: /workshop/
 ---
 <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>✨ Project Sparkle ✨</title>
+<link href="{{ '/assets/css/styles.css' | relative_url }}" rel="stylesheet" />
+</head>
 
 <body class="cats">
 
   <!-- Main Header -->
 <header class="navbar">
-  <div class="logo">✨ Lila James</div>
   <nav id="nav-links" class="nav-links">
     <a href="/sparkle_workshop/">Home</a>
     <a href="/sparkle_workshop/about/">About</a>
@@ -19,12 +24,6 @@ permalink: /workshop/
   <div class="hamburger" onclick="toggleMenu()">🍔</div>
 </header>
 
-<header>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>✨ Project Sparkle ✨</title>
-  <link href="{{ '/assets/css/styles.css' | relative_url }}" rel="stylesheet" />
-</header>
 
 <section class="step" style="margin-top: 3em; max-width: 800px; margin-left: auto; margin-right: auto; padding: 2em; background: #fff8fc; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); font-family: 'Helvetica Neue', sans-serif;">
 
@@ -47,6 +46,8 @@ permalink: /workshop/
     </li>
     <li><strong>📦 All materials & wearable tech provided</strong> — tailored to your child’s interests. Just bring your curiosity!</li>
   </ul>
+
+
 
   <p style="margin-top: 1em; font-size: 1em; color: #555;">
     Each session is personalized and led by a seasoned engineer, artist, and educator. I travel throughout NYC and nearby areas. A single workshop teaches students how to sew a circuit, learn programming basics, and includes guided online enrichment. Multi-session packages are available for larger projects.
