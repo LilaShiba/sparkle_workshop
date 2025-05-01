@@ -12,7 +12,6 @@ permalink: /workshop/
 </head>
 
 <body class="cats">
-style="position:relative; z-index:10"
   <!-- Main Header -->
 <header class="navbar" style="position:relative; z-index:10">
   <nav id="nav-links" class="nav-links">
