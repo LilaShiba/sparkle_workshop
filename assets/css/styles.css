@@ -362,7 +362,7 @@ summary {
 .institution-list {
   list-style: disc;
   margin-left: 1.5rem;
-  color: #333;
+  color: white;
   font-size: 1.05rem;
   line-height: 1.5;
 }
@@ -378,13 +378,13 @@ summary {
   font-size: 1.75rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  color: #333;
+  color: white;
 }
 
 .intro-text {
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
-  color: #555;
+  color: white;
 }
 
 .institution-list {
@@ -392,7 +392,7 @@ summary {
   padding-left: 0;
   line-height: 1.75;
   font-size: 1rem;
-  color: #444;
+  color: white;
 }
 
 .institution-list li::before {

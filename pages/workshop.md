@@ -28,7 +28,7 @@ permalink: /workshop/
     <p style="text-align: center; font-size: 1.1em; color: white; max-width: 620px; margin: 0 auto 1.5em;">
       Bring the magic of Science & Art right to your home.
     </p>
-    <ul style="list-style: none;>
+    <ul style="list-style: none;">
       <li><strong>👥 Group Size:</strong> 1 to 7 students</li>
       <li><strong>⏱ Session Length:</strong> 2 hours</li>
       <li><strong>🗓 Flexible Scheduling:</strong> Weekday afternoons or weekends</li>
