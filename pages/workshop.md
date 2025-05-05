@@ -68,9 +68,7 @@ permalink: /workshop/
   <hr style="margin: 2.5em 0; border: none; border-top: 1px solid #eee;">
 
   <section style="step">
-  <p style="text-align: center; font-size: 1em; color: #666;">
-    Fill out the form below and I’ll be in touch shortly to personalize your Sparkle session!
-  </p>
+
 
    <div style="display: flex; justify-content: center; gap: 1.5em; margin-top: 2em; flex-wrap: wrap;">
     <a href="mailto:lilaresearch@gmail.com?subject=Project%20Sparkle%20Workshop%20Inquiry&body=Hi%20Lila%2C%0AI%27m%20interested%20in%20booking%20a%20Project%20Sparkle%20workshop%20at%20home.%20Here%20are%20some%20details%3A%0A%0A-%20Preferred%20date(s)%3A%0A-%20Number%20of%20students%3A%0A-%20Location%3A%0A-%20Any%20special%20interests%20or%20project%20ideas%3A%0A%0AThanks%21"
@@ -83,11 +81,10 @@ permalink: /workshop/
   </a>
   </div>
 </section>
-
-
 <script src="{{ site.baseurl }}/assets/js/cats.js"></script>
 <script src="{{ site.baseurl }}/assets/js/mouse.js"></script>
 <script src="{{ site.baseurl }}/assets/js/confetti.js"></script>
 <script src="{{ site.baseurl }}/assets/js/expandEffect.js"></script>
 
 </body>
+</html>
