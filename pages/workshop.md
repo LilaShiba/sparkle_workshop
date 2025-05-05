@@ -23,7 +23,7 @@ permalink: /workshop/
     <div class="hamburger" onclick="toggleMenu()">🍔</div>
   </header>
 
-  <section class="step" style="margin-top: 3em; max-width: 800px; margin-left: auto; margin-right: auto; padding: 2em; background: #fff8fc; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); font-family: 'Helvetica Neue', sans-serif;">
+  <section class="step" style="margin-top: 3em; max-width: 800px; margin-left: auto; margin-right: auto; padding: 2em; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); font-family: 'Helvetica Neue', sans-serif;">
     <h2 style="text-align: center; font-size: 2em; color: #6a1b9a; margin-bottom: 0.5em;">🏡 Host a Project Sparkle Workshop at Home</h2>
     <p style="text-align: center; font-size: 1.1em; color: #444; max-width: 620px; margin: 0 auto 1.5em;">
       Bring the magic of Science & Art right to your home.
