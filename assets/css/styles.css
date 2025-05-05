@@ -366,3 +366,53 @@ summary {
   font-size: 1.05rem;
   line-height: 1.5;
 }
+
+.section.institutions {
+  padding: 2rem 1rem;
+  background-color: #f9f9fb;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.section-header {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.institution-list {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.75;
+  font-size: 1rem;
+  color: #444;
+}
+
+.institution-list li::before {
+  content: "🌟 ";
+  margin-right: 0.5rem;
+}
+
+.styled-link {
+  color: #3a5fc8;
+  text-decoration: underline;
+}
+
+.image-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.dog-photo {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
