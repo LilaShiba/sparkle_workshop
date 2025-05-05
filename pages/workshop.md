@@ -48,7 +48,6 @@ permalink: /workshop/
     <details>
       <summary>Why the Price?</summary>
       <p>Each student will be provided with the following</p>
-      <ol>
         <li>
           <ul>
             <li>Sewable microcontroller:Flora Neopixel</li>
@@ -60,7 +59,6 @@ permalink: /workshop/
             <li>An instructor with over 10 years in-class teaching experience</li>
           </ul>
         </li>
-      </ol>
     </details>
   </section>
   <p style="margin-top: 1em; font-size: 1em; color: #555;">

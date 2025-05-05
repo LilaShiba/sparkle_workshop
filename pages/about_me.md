@@ -34,11 +34,13 @@ permalink: /about/
       Explore some of my projects on my 
       <a href="https://github.com/LilaShiba" target="_blank" class="styled-link">portfolio</a> 🎨.
     </p>
-    <p class="intro-text">
-      I’ve designed and taught lessons for learners of all ages and experience levels. 
-      Here are some of the institutions I’ve collaborated with:
-    </p>
-    <ul class="institution-list">
+  </section>
+</header>
+
+  <section class="step">
+    <details>
+      <summary>I've designed and taught at the following institutions</summary>
+    <ul>
       <li>The Adler Planetarium</li>
       <li>
         Riverdale Country School – 
@@ -53,12 +55,13 @@ permalink: /about/
       <li>IBM</li>
       <li>The Dwight School</li>
       <li>P5.js Creative Coding</li>
+      <li>The Flag House Museum</li>
+      <li>My Dog</li>
+      <img src="../assets/imgs/estelle.jpg" 
+         alt="Estelle" 
+         style="max-width: 75%; height: auto;" />
     </ul>
   </div>
-    <p>Feel free to 📧 
-    <a href="mailto:lilaresearch@gmail.com">lilaresearch@gmail.com</a> 
-    with any questions, requests, or for scheduling and pricing.
-  </p>
 </section>
 
 
@@ -69,7 +72,6 @@ permalink: /about/
          alt="Estelle" 
          style="max-width: 75%; height: auto;" />
   </details>
-</header>
 
 <section class="step">
   <div class="container">
