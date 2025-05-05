@@ -34,6 +34,7 @@ permalink: /about/
       Explore some of my projects on my 
       <a href="https://github.com/LilaShiba" target="_blank" class="styled-link">portfolio</a> 🎨.
     </p>
+  </div> 
   </section>
 </header>
 
