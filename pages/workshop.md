@@ -51,13 +51,13 @@ permalink: /workshop/
       <ol>
         <li>
           <ul>
-            <li><strong>Sewable microcontroller:</strong> Flora Neopixel</li>
+            <li>Sewable microcontroller:Flora Neopixel</li>
             <li><strong>Sewable neopixel LEDs</strong></li>
-            <li><strong>Conductive thread:</strong> GND</li>
+            <li>Conductive thread:</li>
             <li><strong>Online lessons & materials</strong></li>
-            <li><strong>Practice materials</strong></li>
+            <li>Practice materials</li>
             <li><strong>Sewing & Programming lessons</strong></li>
-            <li><strong>An instructor with over 10 years in-class teaching experience</strong></li>
+            <li>An instructor with over 10 years in-class teaching experience</li>
           </ul>
         </li>
       </ol>
