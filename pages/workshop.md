@@ -24,8 +24,8 @@ permalink: /workshop/
   </header>
 
   <section class="step" style="margin-top: 3em; max-width: 800px; margin-left: auto; margin-right: auto; padding: 2em; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); font-family: 'Helvetica Neue', sans-serif;">
-    <h2 style="text-align: center; font-size: 2em; color: #6a1b9a; margin-bottom: 0.5em;">🏡 Host a Project Sparkle Workshop at Home</h2>
-    <p style="text-align: center; font-size: 1.1em; color: #444; max-width: 620px; margin: 0 auto 1.5em;">
+    <h2 style="text-align: center; font-size: 2em; color:rgb(251, 249, 251); margin-bottom: 0.5em;">🏡 Host a Project Sparkle Workshop at Home</h2>
+    <p style="text-align: center; font-size: 1.1em; color: white; max-width: 620px; margin: 0 auto 1.5em;">
       Bring the magic of Science & Art right to your home.
     </p>
     <ul style="list-style: none; background-color: black; color: #fff; padding: 0; font-size: 1em; line-height: 1.6;">
@@ -53,7 +53,7 @@ permalink: /workshop/
     <li>Instructor with over 10 years of in-class teaching experience</li>
   </ul>
 </details>
-    <p style="margin-top: 1em; font-size: 1em; color: #555;">
+    <p style="margin-top: 1em; font-size: 1em; color: white;">
       Each session is personalized and led by a seasoned engineer, artist, and educator—me! I travel throughout NYC and nearby areas. A single workshop teaches students how to sew a circuit, learn programming basics, and includes guided online enrichment. Multi-session packages are available for larger projects, and asking questions is always free. The goal is to form a collective of students who support each other and their work.
     </p>
     <hr style="margin: 2.5em 0; border: none; border-top: 1px solid #eee;">
