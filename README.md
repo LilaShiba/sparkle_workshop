@@ -12,7 +12,7 @@
 <header class="navbar">
   <nav id="nav-links" class="nav-links">
     <a href="/sparkle_workshop/">Home</a>
-    <a href="/sparkle_workshop/about/">About Me</a>
+    <a href="/sparkle_workshop/about/">About</a>
     <a href="/sparkle_workshop/lessons/">Lessons</a>
     <a href="/sparkle_workshop/workshop/">Workshop</a>
   </nav>
