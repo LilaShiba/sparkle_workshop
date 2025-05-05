@@ -41,18 +41,18 @@ permalink: /workshop/
       </li>
       <li><strong>📦 All materials & wearable tech provided</strong> — tailored to your child’s interests. Just bring your curiosity!</li>
     </ul>
-    <details style="margin-top: 1em;">
-      <summary>Why the Price?</summary>
-      <ul style="margin-top: 0.5em; padding-left: 1.5em;">
-        <li><strong>Sewable microcontroller:</strong> Flora Neopixel</li>
-        <li><strong>Sewable neopixel LEDs</strong></li>
-        <li><strong>Conductive thread</strong></li>
-        <li><strong>Online lessons & materials</strong></li>
-        <li>Practice materials</li>
-        <li><strong>Sewing & Programming lessons</strong></li>
-        <li>Instructor with over 10 years of in-class teaching experience</li>
-      </ul>
-    </details>
+<details style="margin-top: 1em; background: #000; color: #fff; padding: 1em; border-radius: 8px;">
+  <summary style="cursor: pointer; font-weight: bold;">Why the Price?</summary>
+  <ul style="margin-top: 0.5em; padding-left: 1.5em;">
+    <li><strong>Sewable microcontroller:</strong> Flora Neopixel</li>
+    <li><strong>Sewable neopixel LEDs</strong></li>
+    <li><strong>Conductive thread</strong></li>
+    <li><strong>Online lessons & materials</strong></li>
+    <li>Practice materials</li>
+    <li><strong>Sewing & Programming lessons</strong></li>
+    <li>Instructor with over 10 years of in-class teaching experience</li>
+  </ul>
+</details>
     <p style="margin-top: 1em; font-size: 1em; color: #555;">
       Each session is personalized and led by a seasoned engineer, artist, and educator—me! I travel throughout NYC and nearby areas. A single workshop teaches students how to sew a circuit, learn programming basics, and includes guided online enrichment. Multi-session packages are available for larger projects, and asking questions is always free. The goal is to form a collective of students who support each other and their work.
     </p>
