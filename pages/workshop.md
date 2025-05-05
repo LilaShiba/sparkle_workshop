@@ -16,7 +16,7 @@ permalink: /workshop/
 <header class="navbar" style="position:relative; z-index:10">
   <nav id="nav-links" class="nav-links">
     <a href="/sparkle_workshop/">Home</a>
-    <a href="/sparkle_workshop/about/">About</a>
+    <a href="/sparkle_workshop/about/">Instructor</a>
     <a href="/sparkle_workshop/lessons/">Lessons</a>
     <a href="/sparkle_workshop/contact/">Contact</a>
   </nav>
@@ -47,10 +47,9 @@ permalink: /workshop/
   <section class="step">
     <details>
       <summary>Why the Price?</summary>
-      <p>Each student will be provided with the following</strong></p>
+      <p>Each student will be provided with the following</p>
       <ol>
         <li>
-          <strong>Connect the Flora NeoPixel</strong> using jumper wires:
           <ul>
             <li><strong>Sewable microcontroller:</strong> Flora Neopixel</li>
             <li><strong>Sewable neopixel LEDs</strong></li>

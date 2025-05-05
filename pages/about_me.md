@@ -17,7 +17,7 @@ permalink: /about/
   <div class="logo">✨ Lila James</div>
   <nav id="nav-links" class="nav-links">
     <a href="/sparkle_workshop/">Home</a>
-    <a href="/sparkle_workshop/about/">About</a>
+    <a href="/sparkle_workshop/about/">Instructor</a>
     <a href="/sparkle_workshop/lessons/">Lessons</a>
     <a href="/sparkle_workshop/contact/">Contact</a>
   </nav>
