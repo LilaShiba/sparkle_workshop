@@ -18,7 +18,7 @@ permalink: /workshop/
     <a href="/sparkle_workshop/">Home</a>
     <a href="/sparkle_workshop/about/">Instructor</a>
     <a href="/sparkle_workshop/lessons/">Lessons</a>
-    <a href="/sparkle_workshop/workshop/">Workshop</a>
+    <a href="/sparkle_workshop/contact/">Contact</a>
   </nav>
   <div class="hamburger" onclick="toggleMenu()">🍔</div>
 </header>
@@ -65,26 +65,24 @@ permalink: /workshop/
     Each session is personalized and led by a seasoned engineer, artist, and educator-me! I travel throughout NYC and nearby areas. A single workshop teaches students how to sew a circuit, learn programming basics, and includes guided online enrichment. Multi-session packages are available for larger projects, and asking questions is always free. The goal is to form a collective of students who support each other and their work.
   </p>
 
+  <hr style="margin: 2.5em 0; border: none; border-top: 1px solid #eee;">
 
+  <section style="step">
+  <p style="text-align: center; font-size: 1em; color: #666;">
+    Fill out the form below and I’ll be in touch shortly to personalize your Sparkle session!
+  </p>
 
-<hr class="divider">
-
-<p class="sparkle-intro">
-  Fill out the form below and I’ll be in touch shortly to personalize your Sparkle session!
-</p>
-
-<div class="sparkle-buttons">
-  <a href="mailto:lilaresearch@gmail.com?subject=Project%20Sparkle%20Workshop%20Inquiry&body=Hi%20Lila%2C%0AI%27m%20interested%20in%20booking%20a%20Project%20Sparkle%20workshop%20at%20home.%20Here%20are%20some%20details%3A%0A%0A-%20Preferred%20date(s)%3A%0A-%20Number%20of%20students%3A%0A-%20Location%3A%0A-%20Any%20special%20interests%20or%20project%20ideas%3A%0A%0AThanks%21"
-     class="sparkle-button sparkle-gradient-blue">
-    ✨ Book a Home Workshop ✨
-  </a>
-
-  <a href="/sparkle_workshop/about/"
-     class="sparkle-button sparkle-gradient-pink">
+   <div style="display: flex; justify-content: center; gap: 1.5em; margin-top: 2em; flex-wrap: wrap;">
+    <a href="mailto:lilaresearch@gmail.com?subject=Project%20Sparkle%20Workshop%20Inquiry&body=Hi%20Lila%2C%0AI%27m%20interested%20in%20booking%20a%20Project%20Sparkle%20workshop%20at%20home.%20Here%20are%20some%20details%3A%0A%0A-%20Preferred%20date(s)%3A%0A-%20Number%20of%20students%3A%0A-%20Location%3A%0A-%20Any%20special%20interests%20or%20project%20ideas%3A%0A%0AThanks%21"
+       style="background: linear-gradient(135deg, #00bcd4, #673ab7); color: white; padding: 0.75em 1.5em; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease-in-out;">
+      ✨ Book a Home Workshop ✨
+    </a>
+    <a href="/sparkle_workshop/about/"
+     style="background: linear-gradient(135deg, #ff69b4, #8a2be2); color: white; padding: 0.75em 1.5em; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease-in-out;">
     ✨ Explore the Instructor ✨
   </a>
-</div>
-
+  </div>
+</section>
 
 
 <script src="{{ site.baseurl }}/assets/js/cats.js"></script>
