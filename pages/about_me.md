@@ -38,14 +38,15 @@ permalink: /about/
   </section>
 </header>
 
-  <section class="step">
-    <details>
-      <summary>I've designed and taught at the following institutions</summary>
-    <ul>
+<section class="section institutions">
+  <div class="container">
+    <h2 class="section-header">Teaching & Design Highlights</h2>
+    <p class="intro-text">I've had the honor of designing and teaching programs at a diverse range of institutions:</p>
+    <ul class="institution-list">
       <li>The Adler Planetarium</li>
       <li>
         Riverdale Country School – 
-        <a href="https://www.niche.com/k12/riverdale-country-school-bronx-ny/" target="_blank" class="styled-link">
+        <a href="https://www.niche.com/k12/riverdale-country-school-bronx-ny/" target="_blank" rel="noopener" class="styled-link">
           voted best private school in America
         </a>
       </li>
@@ -57,13 +58,14 @@ permalink: /about/
       <li>The Dwight School</li>
       <li>P5.js Creative Coding</li>
       <li>The Flag House Museum</li>
-      <li>My Dog</li>
-      <img src="../assets/imgs/estelle.jpg" 
-         alt="Estelle" 
-         style="max-width: 75%; height: auto;" />
+      <li>My Dog 🐶</li>
     </ul>
-    </details>
+    <div class="image-container">
+      <img src="../assets/imgs/estelle.jpg" alt="Estelle the dog, possibly the best co-teacher ever" class="dog-photo" />
+    </div>
+  </div>
 </section>
+
 
 
 
