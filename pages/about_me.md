@@ -38,7 +38,7 @@ permalink: /about/
   </section>
 </header>
 
-<section class="section institutions">
+<section class="step">
   <div class="container">
     <h2 class="section-header">Teaching & Design Highlights</h2>
     <p class="intro-text">I've had the honor of designing and teaching programs at a diverse range of institutions:</p>
