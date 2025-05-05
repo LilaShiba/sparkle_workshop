@@ -63,6 +63,7 @@ permalink: /about/
          style="max-width: 75%; height: auto;" />
     </ul>
   </div>
+    </details>
 </section>
 
 
