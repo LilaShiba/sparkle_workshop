@@ -25,31 +25,43 @@ permalink: /about/
 </header>
 
 <header>
-  <h1>Lila James <span class="emoji">✨👩‍💻🌙</span></h1>
-  <p>Hey there! I'm a technologist, educator, and artist with over 15 years of international experience. I’ve taught on six continents, and my work bridges science and art. You can explore some of it on my 🎨 
-    <a href="https://github.com/LilaShiba" target="_blank">portfolio</a>.
-  </p>
-  <p>I’ve designed and taught lessons for all age groups and levels of experience. Here are some institutions I’ve worked with:</p>
-  <ul>
-    <li>The Adler Planetarium</li>
-    <li>
-      Riverdale Country School – 
-      <a href="https://www.niche.com/k12/riverdale-country-school-bronx-ny/" target="_blank">
-        voted best private school in America
-      </a>
-    </li>
-    <li>Mastercard</li>
-    <li>Berkeley Carroll School</li>
-    <li>Chase Bank</li>
-    <li>Georgia Institute of Technology</li>
-    <li>IBM</li>
-    <li>The Dwight School</li>
-    <li>P5.js Creative Coding</li>
-  </ul>
-  <p>Feel free to 📧 
+<section class="intro-section">
+  <div class="container">
+    <h1 class="intro-heading">Lila James <span class="emoji">✨👩‍💻🌙</span></h1>
+    <p class="intro-text">
+      Hey there! I'm a <strong>technologist</strong>, <strong>educator</strong>, and <strong>artist</strong> with over 15 years of international experience. 
+      I’ve taught on six continents, and my work bridges the worlds of science and art. 
+      Explore some of my projects on my 
+      <a href="https://github.com/LilaShiba" target="_blank" class="styled-link">portfolio</a> 🎨.
+    </p>
+    <p class="intro-text">
+      I’ve designed and taught lessons for learners of all ages and experience levels. 
+      Here are some of the institutions I’ve collaborated with:
+    </p>
+    <ul class="institution-list">
+      <li>The Adler Planetarium</li>
+      <li>
+        Riverdale Country School – 
+        <a href="https://www.niche.com/k12/riverdale-country-school-bronx-ny/" target="_blank" class="styled-link">
+          voted best private school in America
+        </a>
+      </li>
+      <li>Mastercard</li>
+      <li>Berkeley Carroll School</li>
+      <li>Chase Bank</li>
+      <li>Georgia Institute of Technology</li>
+      <li>IBM</li>
+      <li>The Dwight School</li>
+      <li>P5.js Creative Coding</li>
+    </ul>
+  </div>
+    <p>Feel free to 📧 
     <a href="mailto:lilaresearch@gmail.com">lilaresearch@gmail.com</a> 
     with any questions, requests, or for scheduling and pricing.
   </p>
+</section>
+
+
   <details style="text-align: center;">
     <summary>🐶 My Dog 🐶</summary>
     <p class="shimmer-text">Say hi to Estelle</p>
