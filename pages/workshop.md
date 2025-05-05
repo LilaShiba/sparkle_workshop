@@ -12,16 +12,16 @@ permalink: /workshop/
 </head>
 
 <body class="cats">
-  <!-- Main Header -->
-  <header class="navbar" style="position:relative; z-index:10">
-    <nav id="nav-links" class="nav-links">
-      <a href="/sparkle_workshop/">Home</a>
-      <a href="/sparkle_workshop/about/">Instructor</a>
-      <a href="/sparkle_workshop/lessons/">Lessons</a>
-      <a href="/sparkle_workshop/contact/">Contact</a>
-    </nav>
-    <div class="hamburger" onclick="toggleMenu()">🍔</div>
-  </header>
+<!-- Main Header -->
+<header class="navbar">
+  <nav id="nav-links" class="nav-links">
+    <a href="/sparkle_workshop/">Home</a>
+    <a href="/sparkle_workshop/about/">Instructor</a>
+    <a href="/sparkle_workshop/lessons/">Lessons</a>
+    <a href="/sparkle_workshop/workshop/">Workshop</a>
+  </nav>
+  <div class="hamburger" onclick="toggleMenu()">🍔</div>
+</header>
 
   <section class="step" style="margin-top: 3em; max-width: 800px; margin-left: auto; margin-right: auto; padding: 2em; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); font-family: 'Helvetica Neue', sans-serif;">
     <h2 style="text-align: center; font-size: 2em; color:rgb(251, 249, 251); margin-bottom: 0.5em;">🏡 Host a Project Sparkle Workshop at Home</h2>

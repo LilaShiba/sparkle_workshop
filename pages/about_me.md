@@ -14,12 +14,11 @@ permalink: /about/
 
 <!-- Main Header -->
 <header class="navbar">
-  <div class="logo">✨ Lila James</div>
-  <nav id="nav-links" class="nav-links">
+\  <nav id="nav-links" class="nav-links">
     <a href="/sparkle_workshop/">Home</a>
     <a href="/sparkle_workshop/about/">Instructor</a>
     <a href="/sparkle_workshop/lessons/">Lessons</a>
-    <a href="/sparkle_workshop/contact/">Contact</a>
+    <a href="/sparkle_workshop/workshop/">Workshop</a>
   </nav>
   <div class="hamburger" onclick="toggleMenu()">🍔</div>
 </header>
@@ -40,8 +39,8 @@ permalink: /about/
 
 <section class="step">
   <div class="container">
-    <h2 class="section-header">Teaching & Design Highlights</h2>
-    <p class="intro-text">I've had the honor of designing and teaching programs at a diverse range of institutions:</p>
+    <h2>Teaching & Design Highlights</h2>
+    <p>I've had the honor of designing and teaching programs at a diverse range of institutions:</p>
     <ul class="institution-list">
       <li>The Adler Planetarium</li>
       <li>
