@@ -62,18 +62,10 @@ permalink: /about/
          alt="Estelle" 
          style="max-width: 75%; height: auto;" />
     </ul>
-  </div>
     </details>
 </section>
 
 
-  <details style="text-align: center;">
-    <summary>🐶 My Dog 🐶</summary>
-    <p class="shimmer-text">Say hi to Estelle</p>
-    <img src="../assets/imgs/estelle.jpg" 
-         alt="Estelle" 
-         style="max-width: 75%; height: auto;" />
-  </details>
 
 <section class="step">
   <div class="container">
