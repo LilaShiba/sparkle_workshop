@@ -37,7 +37,7 @@ permalink: /workshop/
         <ul style="margin-top: 0.5em; margin-bottom: 0.5em; padding-left: 1.5em;">
           <li>$250 for 1–2 students</li>
           <li>$350 for 3–4 students</li>
-          <li>$550 for 5–7 students</li>
+          <li>$550 for 5–7 students</li>2
         </ul>
       </li>
       <li><strong>📦 All materials & wearable tech provided</strong> — tailored to your child’s interests. Just bring your curiosity!</li>
@@ -68,7 +68,7 @@ permalink: /workshop/
         <a href="/sparkle_workshop/about/"
            style="background: linear-gradient(135deg, #ff69b4, #8a2be2); color: white; padding: 0.75em 1.5em; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease-in-out;"
            aria-label="Learn about the instructor behind Project Sparkle">
-          ✨ Explore the Instructor ✨
+          ✨ Meet the Instructor ✨
         </a>
       </div>
     </section>

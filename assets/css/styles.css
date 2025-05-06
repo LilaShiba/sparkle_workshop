@@ -161,22 +161,27 @@ summary {
 /* === Shimmer Text === */
 .shimmer-text {
   background: linear-gradient(90deg, #ff7eb9, #ff65a3, #7afcff, #ff7eb9);
-  background-size: 200% auto;
+  background-size: 400% auto;
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  animation: shimmer 3.5s linear infinite;
+  animation: shimmer 5s ease-in-out infinite;
 }
 
 @keyframes shimmer {
   0% {
-    background-position: 200% 0;
+    background-position: 100% 0;
+  }
+
+  50% {
+    background-position: 0% 0;
   }
 
   100% {
-    background-position: -200% 0;
+    background-position: 100% 0;
   }
 }
+
 
 /* === Slide Fade In === */
 .slide-fade-in {
