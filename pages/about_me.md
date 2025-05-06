@@ -14,7 +14,7 @@ permalink: /about/
 
 <!-- Main Header -->
 <header class="navbar">
-\  <nav id="nav-links" class="nav-links">
+  <nav id="nav-links" class="nav-links">
     <a href="/sparkle_workshop/">Home</a>
     <a href="/sparkle_workshop/about/">Instructor</a>
     <a href="/sparkle_workshop/lessons/">Lessons</a>
