@@ -30,11 +30,12 @@ permalink: /about/
     <p class="intro-text">
       Hey there! I'm a <strong>technologist</strong>, <strong>educator</strong>, and <strong>artist</strong> with over 15 years of international experience. 
       I’ve taught on six continents, and my work bridges the worlds of science and art. 
-      <a href="https://github.com/LilaShiba"
+      <br>
+      <center><a href="https://github.com/LilaShiba"
            style="background: linear-gradient(135deg, #ff69b4, #8a2be2); color: white; padding: 0.75em 1.5em; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease-in-out;"
            aria-label="Learn about Lila">
           ✨ Portfolio ✨
-        </a>
+        </a></center>
     </p>
   </div> 
   </section>
