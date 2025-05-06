@@ -30,8 +30,11 @@ permalink: /about/
     <p class="intro-text">
       Hey there! I'm a <strong>technologist</strong>, <strong>educator</strong>, and <strong>artist</strong> with over 15 years of international experience. 
       I’ve taught on six continents, and my work bridges the worlds of science and art. 
-      Explore some of my projects on my 
-      <a href="https://github.com/LilaShiba" target="_blank" class="styled-link">portfolio</a> 🎨.
+      <a href="https://github.com/LilaShiba"
+           style="background: linear-gradient(135deg, #ff69b4, #8a2be2); color: white; padding: 0.75em 1.5em; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease-in-out;"
+           aria-label="Learn about Lila">
+          ✨ Portfolio ✨
+        </a>
     </p>
   </div> 
   </section>
@@ -55,7 +58,9 @@ permalink: /about/
       <li>Georgia Institute of Technology</li>
       <li>IBM</li>
       <li>The Dwight School</li>
+      <li>KPMG</li>
       <li>P5.js Creative Coding</li>
+      <li>Santander</li>
       <li>The Flag House Museum</li>
       <li>My Dog 🐶</li>
     </ul>
@@ -76,9 +81,13 @@ permalink: /about/
     <div class="content">
       <h3>Georgia Institute of Technology <span class="emoji">🎓</span></h3>
       <p>M.Sc. in Computer Science (2024)</p>
+      <h3>Goucher College <span class="emoji">🎓</span></h3>
+      <p>MA in Cultural Sustainability (2013)</p>
       <h3>Towson University <span class="emoji">📚</span></h3>
       <p>B.S. in Sociology (2010)</p>
+      <p>Currently obtaining **Linux System Administrator Certificate** from the linux foundation</p>
     </div>
+
   </div>
 </section>
 
