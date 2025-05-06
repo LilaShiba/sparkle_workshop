@@ -4,11 +4,17 @@ body {
   padding: 20px;
   font-family: Arial, sans-serif;
   background-color: #000;
+  /* Black background */
   color: #fff;
-  cursor: 🐈;
+  /* White text */
+  /* Hide default cursor */
+  cursor: 🐈
 }
 
-header.site-header,
+header.site-header {
+  display: none !important;
+}
+
 .p-name {
   display: none !important;
 }
@@ -21,17 +27,16 @@ h1 {
   color: #fff;
 }
 
-h2,
-h3 {
-  color: #fff;
-}
-
 h2 {
-  border-bottom: 2px solid #55CDFC;
+  color: #fff;
+  /* White text */
+  border-bottom: 2px solid #3498db;
   padding-bottom: 5px;
 }
 
 h3 {
+  color: #fff;
+  /* White text */
   font-weight: normal;
 }
 
@@ -47,7 +52,9 @@ header {
 
 /* === Steps === */
 .step {
+  position: relative;
   background-color: #333;
+  /* Dark background for steps */
   border-radius: 10px;
   padding: 20px;
   margin: 20px 0;
@@ -57,28 +64,30 @@ header {
 .step h3 {
   margin-top: 0;
   font-weight: bold;
-  color: #55CDFC;
+  color: #3498db;
+  /* Blue color for step headers */
 }
 
-/* === Code Blocks === */
+/* === Code & Preformatted Text === */
 pre {
-  background-color: #222;
-  color: #eee;
+  /* Dark background for code */
   padding: 15px;
   border-radius: 5px;
   overflow-x: auto;
   max-width: 100%;
+  /* Light color for code text */
   font-size: 0.95em;
 }
 
 code {
   color: #e73ca5;
+  /* Red for code highlights */
 }
 
 /* === Buttons === */
 .button {
   display: inline-block;
-  background-color: #55CDFC;
+  background-color: #3498db;
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
@@ -89,7 +98,7 @@ code {
 }
 
 .button:hover {
-  background-color: #3ab3dd;
+  background-color: #2980b9;
 }
 
 /* === Details & Footer === */
@@ -100,7 +109,7 @@ details {
 summary {
   font-weight: bold;
   cursor: pointer;
-  color: #55CDFC;
+  color: #3498db;
 }
 
 .footer {
@@ -110,31 +119,30 @@ summary {
   color: #7f8c8d;
 }
 
-/* === Cursor & Sparkles === */
-.sparkle-cursor,
-.sparkle {
-  position: fixed;
-  pointer-events: none;
-  mix-blend-mode: screen;
-  z-index: 10000;
-}
-
+/* === Custom Cursor === */
 .sparkle-cursor {
+  position: fixed;
   width: 8px;
   height: 8px;
   background: radial-gradient(circle, gold, orange);
   border-radius: 50%;
+  pointer-events: none;
+  z-index: 10000;
+  mix-blend-mode: screen;
   filter: drop-shadow(0 0 4px gold);
 }
 
+/* === Sparkle Effect === */
 .sparkle {
   position: absolute;
   width: 6px;
   height: 6px;
   background: gold;
   border-radius: 50%;
+  pointer-events: none;
   animation: sparkle-fade 0.6s ease-out;
   z-index: 9999;
+  mix-blend-mode: screen;
   filter: drop-shadow(0 0 4px gold);
 }
 
@@ -151,13 +159,14 @@ summary {
 }
 
 /* === Shimmer Text === */
+/* === Smooth Shimmer Text === */
 .shimmer-text {
   background: linear-gradient(90deg,
-      #55CDFC 0%,
-      #F7A8B8 25%,
-      #FFFFFF 50%,
-      #F7A8B8 75%,
-      #55CDFC 100%);
+      #ff7eb9 0%,
+      #ff65a3 25%,
+      #7afcff 50%,
+      #ff65a3 75%,
+      #ff7eb9 100%);
   background-size: 300% auto;
   color: transparent;
   background-clip: text;
@@ -179,7 +188,9 @@ summary {
   }
 }
 
-/* === Transitions & Animations === */
+
+
+/* === Slide Fade In === */
 .slide-fade-in {
   animation: slideFade 1s ease forwards;
 }
@@ -196,6 +207,7 @@ summary {
   }
 }
 
+/* === Glow Hover Effect (via JS) === */
 .glow-hover {
   transition: box-shadow 0.3s ease;
 }
@@ -204,7 +216,7 @@ summary {
   box-shadow: 0 0 12px 4px var(--glow-color);
 }
 
-/* === Cat Float Effect === */
+/* === Cat Float === */
 .cat {
   position: absolute;
   font-size: 2rem;
@@ -225,7 +237,7 @@ summary {
   }
 }
 
-/* === Optional Glow === */
+/* === Optional: Glow Sparkle Effect (optional for more magic) === */
 @keyframes glow {
   0% {
     opacity: 1;
@@ -243,7 +255,6 @@ summary {
   }
 }
 
-/* === Media & GIF Container === */
 .gif-container {
   display: flex;
   justify-content: center;
@@ -269,7 +280,7 @@ summary {
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
-/* === Navbar === */
+/* Navbar base */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -282,14 +293,15 @@ summary {
   z-index: 9999;
 }
 
+
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 .nav-links a {
-  background: linear-gradient(90deg, #55CDFC, #F7A8B8, #FFFFFF, #F7A8B8, #55CDFC);
-  background-size: 200% auto;
+  background: linear-gradient(90deg, #5bcffa, #f5a9b8, #ffffff, #f5a9b8, #5bcffa);
+  background-size: 300% auto;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -297,52 +309,62 @@ summary {
   text-decoration: none;
   padding: 0.5em 1em;
   transition: transform 0.2s ease-in-out;
-  display: inline-block;
 }
 
 .nav-links a:hover {
   transform: scale(1.05);
 }
 
+
 .hamburger {
-  display: block;
+  display: none;
   font-size: 2rem;
   cursor: pointer;
 }
 
-/* === Intro & Sections === */
-.intro-section,
-.section.institutions {
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 0 0 0 10px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+.intro-section {
   padding: 2rem;
   background-color: #f9f9fb;
   border-radius: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
   margin-bottom: 2rem;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
 }
 
-.intro-heading,
-.section-header {
+.intro-heading {
   font-size: 2.2rem;
   font-weight: 700;
-  margin-bottom: 1rem;
   color: #333;
+  margin-bottom: 1rem;
 }
 
 .intro-text {
   font-size: 1.1rem;
   color: #444;
   line-height: 1.6;
-  margin-bottom: 1.5rem;
-}
-
-.institution-list {
-  list-style: disc;
-  margin-left: 1.5rem;
-  color: white;
-  font-size: 1.05rem;
-  line-height: 1.5;
+  margin-bottom: 1rem;
 }
 
 .styled-link {
@@ -354,4 +376,129 @@ summary {
 .styled-link:hover {
   text-decoration: underline;
   color: #7a42d1;
+}
+
+.institution-list {
+  list-style: disc;
+  margin-left: 1.5rem;
+  color: white;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+.section.institutions {
+  padding: 2rem 1rem;
+  background-color: #f9f9fb;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.section-header {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+.institution-list {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.75;
+  font-size: 1rem;
+  color: white;
+}
+
+.institution-list li::before {
+  content: "🌟 ";
+  margin-right: 0.5rem;
+}
+
+.styled-link {
+  color: #3a5fc8;
+  text-decoration: underline;
+}
+
+.image-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.dog-photo {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.divider {
+  margin: 2.5em 0;
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+.sparkle-intro {
+  text-align: center;
+  font-size: 1em;
+  color: #666;
+}
+
+.sparkle-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.sparkle-button {
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  border-radius: 12px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.sparkle-button:hover {
+  transform: scale(1.05);
+}
+
+.sparkle-gradient-blue {
+  background: linear-gradient(135deg, #00bcd4, #673ab7);
+}
+
+.sparkle-gradient-pink {
+  background: linear-gradient(135deg, #ff69b4, #8a2be2);
+}
+
+details:hover {
+  box-shadow: 0 0 12px #ffffffaa;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.sparkle-text summary {
+  background: linear-gradient(90deg, #ff69b4, #8a2be2, #00bcd4, #ff69b4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 4s infinite linear;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 0%
+  }
+
+  100% {
+    background-position: 100%
+  }
 }
