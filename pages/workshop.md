@@ -25,13 +25,13 @@ permalink: /workshop/
 
   <section class="step" style="margin-top: 3em; max-width: 800px; margin-left: auto; margin-right: auto; padding: 2em; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); font-family: 'Helvetica Neue', sans-serif;">
     <h2 style="text-align: center; font-size: 2em; color:rgb(251, 249, 251); margin-bottom: 0.5em;">🏡 Host a Project Sparkle Workshop at Home</h2>
-    <p class="sparkle-text" style="text-align: center; font-size: 1.1em; max-width: 620px; margin: 0 auto 1.5em;">
+    <p class="shimmer-text" style="text-align: center; font-size: 1.1em; max-width: 620px; margin: 0 auto 1.5em;">
       Bring the magic of Science & Art right to your home.
     </p>
     <ul style="list-style: none;">
       <li><strong>👥 Group Size:</strong> 1 to 7 students</li>
       <li><strong>⏱ Session Length:</strong> 2 hours</li>
-      <li><strong>⏱ Number of Sessions :</strong> 2 </li>
+      <li><strong>⏱ Number of Sessions:</strong> 2 </li>
       <li><strong>🗓 Flexible Scheduling:</strong> Weekday afternoons, evenings, and weekends</li>
       <li><strong>💎 Premium Pricing:</strong>
         <ul style="margin-top: 0.5em; margin-bottom: 0.5em; padding-left: 1.5em;">
