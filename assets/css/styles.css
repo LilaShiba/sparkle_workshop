@@ -159,13 +159,19 @@ summary {
 }
 
 /* === Shimmer Text === */
+/* === Smooth Shimmer Text === */
 .shimmer-text {
-  background: linear-gradient(90deg, #ff7eb9, #ff65a3, #7afcff, #ff7eb9);
-  background-size: 400% auto;
+  background: linear-gradient(90deg,
+      #ff7eb9 0%,
+      #ff65a3 25%,
+      #7afcff 50%,
+      #ff65a3 75%,
+      #ff7eb9 100%);
+  background-size: 300% auto;
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  animation: shimmer 5s ease-in-out infinite;
+  animation: shimmer 4s ease-in-out infinite;
 }
 
 @keyframes shimmer {
@@ -181,6 +187,7 @@ summary {
     background-position: 100% 0;
   }
 }
+
 
 
 /* === Slide Fade In === */
@@ -279,7 +286,7 @@ summary {
   justify-content: space-between;
   align-items: center;
   background-color: black;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 0.3rem;
   color: white;
   position: initial;
   top: 0;

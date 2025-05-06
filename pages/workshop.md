@@ -4,14 +4,15 @@ title: workshop
 permalink: /workshop/
 ---
 <html lang="en">
+
+
+<body class="cats">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>✨ Project Sparkle ✨</title>
   <link href="{{ '/assets/css/styles.css' | relative_url }}" rel="stylesheet" />
 </head>
-
-<body class="cats">
 <!-- Main Header -->
 <header class="navbar">
   <nav id="nav-links" class="nav-links">
