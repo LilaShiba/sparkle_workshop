@@ -286,28 +286,35 @@ summary {
   justify-content: space-between;
   align-items: center;
   background-color: black;
-  padding: 0.3rem 0.3rem;
+  padding: 0.5rem 1.5rem;
   color: white;
-  position: initial;
+  position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 9999;
 }
+
 
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.nav-links {
-  display: flex;
-  gap: 1.5rem;
+.nav-links a {
+  background: linear-gradient(90deg, #5bcffa, #f5a9b8, #ffffff, #f5a9b8, #5bcffa);
+  background-size: 300% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  transition: transform 0.2s ease-in-out;
 }
 
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.1rem;
+.nav-links a:hover {
+  transform: scale(1.05);
 }
+
 
 .hamburger {
   display: none;
