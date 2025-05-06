@@ -466,3 +466,20 @@ details:hover {
   box-shadow: 0 0 12px #ffffffaa;
   transition: box-shadow 0.3s ease-in-out;
 }
+
+.sparkle-text summary {
+  background: linear-gradient(90deg, #ff69b4, #8a2be2, #00bcd4, #ff69b4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 4s infinite linear;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 0%
+  }
+
+  100% {
+    background-position: 100%
+  }
+}
