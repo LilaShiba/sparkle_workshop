@@ -38,7 +38,7 @@ permalink: /workshop/
         <ul style="margin-top: 0.5em; margin-bottom: 0.5em; padding-left: 1.5em;">
           <li>$250 for 1–2 students</li>
           <li>$350 for 3–4 students</li>
-          <li>$550 for 5–7 students</li>2
+          <li>$550 for 5–7 students</li>
         </ul>
       </li>
       <li><strong>📦 All materials & wearable tech provided</strong> — tailored to your child’s interests. Just bring your curiosity!</li>
